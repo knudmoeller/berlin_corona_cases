@@ -16,7 +16,7 @@ NEWSPIDER_MODULE = 'coronaberlin.spiders'
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = 'coronaberlin (+http://www.yourdomain.com)'
+USER_AGENT = 'coronaberlin (+https://github.com/knudmoeller/berlin_corona_cases)'
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = True

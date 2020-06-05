@@ -4950,60 +4950,6 @@
     }
   },
   {
-    "source": "https://www.berlin.de/sen/gpg/service/presse/2020/pressemitteilung.906973.php",
-    "date": "2020-03-15",
-    "counts_per_district": {
-      "lor_01": {
-        "case_count": 45,
-        "incidence": 11.7
-      },
-      "lor_02": {
-        "case_count": 30,
-        "incidence": 10.4
-      },
-      "lor_03": {
-        "case_count": 26,
-        "incidence": 6.4
-      },
-      "lor_04": {
-        "case_count": 54,
-        "incidence": 15.8
-      },
-      "lor_05": {
-        "case_count": 9,
-        "incidence": 3.4
-      },
-      "lor_06": {
-        "case_count": 34,
-        "incidence": 11
-      },
-      "lor_07": {
-        "case_count": 27,
-        "incidence": 7.7
-      },
-      "lor_08": {
-        "case_count": 21,
-        "incidence": 6.3
-      },
-      "lor_09": {
-        "case_count": 8,
-        "incidence": 3
-      },
-      "lor_10": {
-        "case_count": 10,
-        "incidence": 3.7
-      },
-      "lor_11": {
-        "case_count": 8,
-        "incidence": 2.8
-      },
-      "lor_12": {
-        "case_count": 11,
-        "incidence": 4.2
-      }
-    }
-  },
-  {
     "source": "https://www.berlin.de/sen/gpg/service/presse/2020/pressemitteilung.906914.php",
     "date": "2020-03-15",
     "counts_per_district": {
@@ -5046,6 +4992,60 @@
       "lor_10": {
         "case_count": 9,
         "incidence": 3.3
+      },
+      "lor_11": {
+        "case_count": 8,
+        "incidence": 2.8
+      },
+      "lor_12": {
+        "case_count": 11,
+        "incidence": 4.2
+      }
+    }
+  },
+  {
+    "source": "https://www.berlin.de/sen/gpg/service/presse/2020/pressemitteilung.906973.php",
+    "date": "2020-03-15",
+    "counts_per_district": {
+      "lor_01": {
+        "case_count": 45,
+        "incidence": 11.7
+      },
+      "lor_02": {
+        "case_count": 30,
+        "incidence": 10.4
+      },
+      "lor_03": {
+        "case_count": 26,
+        "incidence": 6.4
+      },
+      "lor_04": {
+        "case_count": 54,
+        "incidence": 15.8
+      },
+      "lor_05": {
+        "case_count": 9,
+        "incidence": 3.4
+      },
+      "lor_06": {
+        "case_count": 34,
+        "incidence": 11
+      },
+      "lor_07": {
+        "case_count": 27,
+        "incidence": 7.7
+      },
+      "lor_08": {
+        "case_count": 21,
+        "incidence": 6.3
+      },
+      "lor_09": {
+        "case_count": 8,
+        "incidence": 3
+      },
+      "lor_10": {
+        "case_count": 10,
+        "incidence": 3.7
       },
       "lor_11": {
         "case_count": 8,
