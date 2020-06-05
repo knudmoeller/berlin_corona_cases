@@ -127,6 +127,10 @@ combining JSON files (data/temp/berlin_corona_cases_scraped.json data/manual/man
 writing to data/target/berlin_corona_cases.json ...
 ```
 
+## Logo
+
+- [virus](https://fontawesome.com/icons/virus) logo by [FontAwesome](https://fontawesome.com) under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
 ## License
 
 All software in this repository is published under the [MIT License](LICENSE).
