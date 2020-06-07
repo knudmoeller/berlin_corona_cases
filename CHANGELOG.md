@@ -2,7 +2,9 @@
 
 ## Development
 
-- add counts per age group
+## 0.1.0
+
+- Counts per age group have been added as a new key `counts_per_age_group` for each press release that includes them (all but the very first ones).
 
 ## 0.0.3
 

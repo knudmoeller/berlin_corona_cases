@@ -97,6 +97,26 @@ class CoronaSpider(scrapy.Spider):
 
         result['counts_per_district'] = OrderedDict(sorted(per_district.items()))
 
+        # get second table (age groups)
+        if len(tables) == 2:
+            rows = tables[1].css('tr')
+            per_age_group = {}
+            for row in rows[1:-1]:
+                cells = row.css('td::text')
+                age_group = cells[0].get().strip()
+                case_count = int(self.parse_case_count(cells[1].get().strip()))
+                incidence = "n.a."
+                if age_group != "unbekannt":
+                    incidence = self.parse_german_float(cells[2].get().strip())
+                else:
+                    age_group = "unknown"
+                per_age_group[age_group] = {
+                    'case_count': case_count,
+                    'incidence': incidence,
+                }
+
+            result['counts_per_age_group'] = per_age_group
+
         return result
 
     def parse_list(self, response, result):

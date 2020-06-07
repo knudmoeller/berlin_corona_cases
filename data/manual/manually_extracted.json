@@ -63,6 +63,60 @@
                 "incidence": 93.6,
                 "recovered": 123
             }
+        } ,
+        "counts_per_age_group": {
+            "0-4": {
+                "case_count": 43,
+                "incidence": 22.7
+            } ,
+            "5-9": {
+                "case_count": 28,
+                "incidence": 16.6
+            } ,
+            "10-14": {
+                "case_count": 72,
+                "incidence": 47.1
+            } ,
+            "15-19": {
+                "case_count": 88,
+                "incidence": 59.1
+            } ,
+            "20-24": {
+                "case_count": 265,
+                "incidence": 130.5
+            } ,
+            "25-29": {
+                "case_count": 414,
+                "incidence": 139.1
+            } ,
+            "30-39": {
+                "case_count": 854,
+                "incidence": 133.7
+            } ,
+            "40-49": {
+                "case_count": 599,
+                "incidence": 123.7
+            } ,
+            "50-59": {
+                "case_count": 636,
+                "incidence": 116.9
+            } ,
+            "60-69": {
+                "case_count": 309,
+                "incidence": 78.6
+            } ,
+            "70-79": {
+                "case_count": 210,
+                "incidence": 64.8
+            } ,
+            "80+": {
+                "case_count": 153,
+                "incidence": 75.4
+            } ,
+            "unknown": {
+                "case_count": 16,
+                "incidence": "n.a."
+            }
         }
     },
     {
@@ -129,6 +183,60 @@
                 "incidence": 90.2,
                 "recovered": 113
             }
+        } ,
+        "counts_per_age_group": {
+            "0-4": {
+                "case_count": 43,
+                "incidence": 22.7
+            },
+            "5-9": {
+                "case_count": 26,
+                "incidence": 15.4
+            },
+            "10-14": {
+                "case_count": 72,
+                "incidence": 47.1
+            },
+            "15-19": {
+                "case_count": 86,
+                "incidence": 57.7
+            },
+            "20-24": {
+                "case_count": 258,
+                "incidence": 127.0
+            },
+            "25-29": {
+                "case_count": 408,
+                "incidence": 137.1
+            },
+            "30-39": {
+                "case_count": 844,
+                "incidence": 132.2
+            },
+            "40-49": {
+                "case_count": 586,
+                "incidence": 121.0
+            },
+            "50-59": {
+                "case_count": 630,
+                "incidence": 115.8
+            },
+            "60-69": {
+                "case_count": 305,
+                "incidence": 77.5
+            },
+            "70-79": {
+                "case_count": 203,
+                "incidence": 62.6
+            },
+            "80+": {
+                "case_count": 150,
+                "incidence": 73.9
+            },
+            "unknown": {
+                "case_count": 15,
+                "incidence": "n.a."
+            }
         }
     },
     {
@@ -194,6 +302,60 @@
                 "case_count": 234,
                 "incidence": 88.4,
                 "recovered": 110
+            }
+        } ,
+        "counts_per_age_group": {
+            "0-4": {
+                "case_count": 41,
+                "incidence": 21.6
+            },
+            "5-9": {
+                "case_count": 26,
+                "incidence": 15.4
+            },
+            "10-14": {
+                "case_count": 67,
+                "incidence": 43.8
+            },
+            "15-19": {
+                "case_count": 82,
+                "incidence": 55.0
+            },
+            "20-24": {
+                "case_count": 246,
+                "incidence": 121.1
+            },
+            "25-29": {
+                "case_count": 396,
+                "incidence": 133.0
+            },
+            "30-39": {
+                "case_count": 829,
+                "incidence": 129.8
+            },
+            "40-49": {
+                "case_count": 560,
+                "incidence": 115.7
+            },
+            "50-59": {
+                "case_count": 602,
+                "incidence": 110.7
+            },
+            "60-69": {
+                "case_count": 291,
+                "incidence": 74.0
+            },
+            "70-79": {
+                "case_count": 190,
+                "incidence": 58.6
+            },
+            "80+": {
+                "case_count": 141,
+                "incidence": 69.5
+            },
+            "unknown": {
+                "case_count": 15,
+                "incidence": "n.a."
             }
         }
     } ,
