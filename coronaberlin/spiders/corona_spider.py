@@ -27,7 +27,7 @@ class CoronaSpider(scrapy.Spider):
     # regex patterns
     corona_press_release_pattern = re.compile(r'Coronavirus: Derzeit \d+ bestätigte Fälle in Berlin')
     datetime_pattern = re.compile(r'(\d\d)\.(\d\d)\.(\d\d\d\d), (\d\d)\:(\d\d)')
-    case_count_pattern = re.compile(r'(\d+)\s*(\(.+\))?')
+    case_count_pattern = re.compile(r'((\d|\.)+)\s*(\(.+\))?')
     german_float_pattern = re.compile(r'')
     item_pattern = re.compile(r"\d+\. ein.+({}).+".format("|".join(district_mapping.keys())))
 
@@ -124,7 +124,9 @@ class CoronaSpider(scrapy.Spider):
 
     def parse_case_count(self, case_count):
         count_match = CoronaSpider.case_count_pattern.match(case_count.strip())
-        return count_match.group(1)
+        case_count = count_match.group(1)
+        case_count = self.remove_thousand_separator(case_count)
+        return case_count
 
     def parse_recovered(self, value):
         na_values = [ "n.a.", "n.a" ]
@@ -135,3 +137,6 @@ class CoronaSpider(scrapy.Spider):
 
     def parse_german_float(self, number):
         return float(number.replace(',', '.'))
+
+    def remove_thousand_separator(self, number):
+        return number.replace('.','')

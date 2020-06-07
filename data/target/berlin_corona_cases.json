@@ -4,7 +4,7 @@
     "date": "2020-06-06T12:00:00",
     "counts_per_district": {
       "lor_01": {
-        "case_count": 1,
+        "case_count": 1005,
         "incidence": 260.5,
         "recovered": 949
       },

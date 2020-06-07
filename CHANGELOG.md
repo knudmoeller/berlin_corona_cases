@@ -4,7 +4,11 @@
 
 - add counts per age group
 
-# 0.0.2
+## 0.0.3
+
+- Fix bug where case numbers with thousands separators resulted in wrong data.
+
+## 0.0.2
 
 - Instead of extracting the press release's date for specific day of Corona case numbers, we now extract the date when the data itself was released. This was mostly identical, but in some cases not.
 - Instead of extracting just a date, we now extract a datetime (no timezone).
