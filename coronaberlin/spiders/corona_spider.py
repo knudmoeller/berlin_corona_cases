@@ -26,7 +26,7 @@ class CoronaSpider(scrapy.Spider):
 
     # regex patterns
     corona_press_release_pattern = re.compile(r'Coronavirus: Derzeit \d+ bestätigte Fälle in Berlin')
-    date_pattern = re.compile(r'(\d\d)\.(\d\d)\.(\d\d\d\d)')
+    datetime_pattern = re.compile(r'(\d\d)\.(\d\d)\.(\d\d\d\d), (\d\d)\:(\d\d)')
     case_count_pattern = re.compile(r'(\d+)\s*(\(.+\))?')
     german_float_pattern = re.compile(r'')
     item_pattern = re.compile(r"\d+\. ein.+({}).+".format("|".join(district_mapping.keys())))
@@ -52,20 +52,26 @@ class CoronaSpider(scrapy.Spider):
         }
 
         # get date
-        date_text = response.css('.article .pressnumber::text').get()
-        date_match = CoronaSpider.date_pattern.search(date_text)
-        iso_date = "{}-{}-{}".format(date_match.group(3), date_match.group(2), date_match.group(1))
-        result['date'] = iso_date
+        date_texts = response.css('.html5-section.body h2::text')
+        if date_texts:
+            merged = '|'.join([date_text.get() for date_text in date_texts])
+            date_match = CoronaSpider.datetime_pattern.search(merged)
+            iso_date = "{}-{}-{}T{}:{}:00".format(date_match.group(3), date_match.group(2), date_match.group(1), date_match.group(4), date_match.group(5))
+            result['date'] = iso_date
 
-        list_pages = [
-            'https://www.berlin.de/sen/gpg/service/presse/2020/pressemitteilung.904147.php' ,
-            'https://www.berlin.de/sen/gpg/service/presse/2020/pressemitteilung.904264.php' ,
-        ]
+        list_pages = {
+            'https://www.berlin.de/sen/gpg/service/presse/2020/pressemitteilung.904147.php': '2020-03-08T09:30:00' ,
+            'https://www.berlin.de/sen/gpg/service/presse/2020/pressemitteilung.904264.php': '2020-03-09T09:30:00'
+        }
 
-        if response.url in list_pages :
+        if response.url in list_pages.keys() :
+            result['date'] = list_pages[response.url]
             result = self.parse_list(response, result)
         else:
             result = self.parse_table(response, result)
+
+        if response.url == 'https://www.berlin.de/sen/gpg/service/presse/2020/pressemitteilung.904147.php':
+            result['comment'] = "Only a date has been given in this press release, no time. The time given in the 'date'-field is a guess, based on the press release from 2020-03-09."
 
         yield result
 
