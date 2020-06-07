@@ -1,7 +1,7 @@
 [
   {
     "source": "https://www.berlin.de/sen/gpg/service/presse/2020/pressemitteilung.941005.php",
-    "date": "2020-06-04",
+    "date": "2020-06-04T12:00:00",
     "counts_per_district": {
       "lor_01": {
         "case_count": 998,
@@ -67,7 +67,7 @@
   },
   {
     "source": "https://www.berlin.de/sen/gpg/service/presse/2020/pressemitteilung.940564.php",
-    "date": "2020-06-03",
+    "date": "2020-06-03T12:00:00",
     "counts_per_district": {
       "lor_01": {
         "case_count": 994,
@@ -133,7 +133,7 @@
   },
   {
     "source": "https://www.berlin.de/sen/gpg/service/presse/2020/pressemitteilung.940032.php",
-    "date": "2020-06-02",
+    "date": "2020-06-02T12:00:00",
     "counts_per_district": {
       "lor_01": {
         "case_count": 994,
@@ -199,7 +199,7 @@
   },
   {
     "source": "https://www.berlin.de/sen/gpg/service/presse/2020/pressemitteilung.939508.php",
-    "date": "2020-06-01",
+    "date": "2020-06-01T12:00:00",
     "counts_per_district": {
       "lor_01": {
         "case_count": 986,
@@ -265,7 +265,7 @@
   },
   {
     "source": "https://www.berlin.de/sen/gpg/service/presse/2020/pressemitteilung.939489.php",
-    "date": "2020-05-31",
+    "date": "2020-05-31T12:00:00",
     "counts_per_district": {
       "lor_01": {
         "case_count": 978,
@@ -331,7 +331,7 @@
   },
   {
     "source": "https://www.berlin.de/sen/gpg/service/presse/2020/pressemitteilung.939446.php",
-    "date": "2020-05-30",
+    "date": "2020-05-30T12:00:00",
     "counts_per_district": {
       "lor_01": {
         "case_count": 978,
@@ -397,7 +397,7 @@
   },
   {
     "source": "https://www.berlin.de/sen/gpg/service/presse/2020/pressemitteilung.939394.php",
-    "date": "2020-05-29",
+    "date": "2020-05-29T12:00:00",
     "counts_per_district": {
       "lor_01": {
         "case_count": 968,
@@ -463,7 +463,7 @@
   },
   {
     "source": "https://www.berlin.de/sen/gpg/service/presse/2020/pressemitteilung.938945.php",
-    "date": "2020-05-28",
+    "date": "2020-05-28T12:00:00",
     "counts_per_district": {
       "lor_01": {
         "case_count": 968,
@@ -529,7 +529,7 @@
   },
   {
     "source": "https://www.berlin.de/sen/gpg/service/presse/2020/pressemitteilung.938478.php",
-    "date": "2020-05-27",
+    "date": "2020-05-27T12:00:00",
     "counts_per_district": {
       "lor_01": {
         "case_count": 965,
@@ -595,7 +595,7 @@
   },
   {
     "source": "https://www.berlin.de/sen/gpg/service/presse/2020/pressemitteilung.938001.php",
-    "date": "2020-05-26",
+    "date": "2020-05-26T13:00:00",
     "counts_per_district": {
       "lor_01": {
         "case_count": 960,
@@ -661,7 +661,7 @@
   },
   {
     "source": "https://www.berlin.de/sen/gpg/service/presse/2020/pressemitteilung.936962.php",
-    "date": "2020-05-23",
+    "date": "2020-05-23T12:00:00",
     "counts_per_district": {
       "lor_01": {
         "case_count": 954,
@@ -727,7 +727,7 @@
   },
   {
     "source": "https://www.berlin.de/sen/gpg/service/presse/2020/pressemitteilung.936929.php",
-    "date": "2020-05-22",
+    "date": "2020-05-22T12:00:00",
     "counts_per_district": {
       "lor_01": {
         "case_count": 953,
@@ -793,7 +793,7 @@
   },
   {
     "source": "https://www.berlin.de/sen/gpg/service/presse/2020/pressemitteilung.936652.php",
-    "date": "2020-05-21",
+    "date": "2020-05-21T12:00:00",
     "counts_per_district": {
       "lor_01": {
         "case_count": 952,
@@ -859,7 +859,7 @@
   },
   {
     "source": "https://www.berlin.de/sen/gpg/service/presse/2020/pressemitteilung.936611.php",
-    "date": "2020-05-20",
+    "date": "2020-05-20T12:00:00",
     "counts_per_district": {
       "lor_01": {
         "case_count": 952,
@@ -925,7 +925,7 @@
   },
   {
     "source": "https://www.berlin.de/sen/gpg/service/presse/2020/pressemitteilung.936100.php",
-    "date": "2020-05-19",
+    "date": "2020-05-19T12:00:00",
     "counts_per_district": {
       "lor_01": {
         "case_count": 942,
@@ -991,7 +991,7 @@
   },
   {
     "source": "https://www.berlin.de/sen/gpg/service/presse/2020/pressemitteilung.935247.php",
-    "date": "2020-05-18",
+    "date": "2020-05-18T12:00:00",
     "counts_per_district": {
       "lor_01": {
         "case_count": 935,
@@ -1057,7 +1057,7 @@
   },
   {
     "source": "https://www.berlin.de/sen/gpg/service/presse/2020/pressemitteilung.934244.php",
-    "date": "2020-05-17",
+    "date": "2020-05-17T12:00:00",
     "counts_per_district": {
       "lor_01": {
         "case_count": 933,
@@ -1123,7 +1123,7 @@
   },
   {
     "source": "https://www.berlin.de/sen/gpg/service/presse/2020/pressemitteilung.933355.php",
-    "date": "2020-05-16",
+    "date": "2020-05-16T12:00:00",
     "counts_per_district": {
       "lor_01": {
         "case_count": 932,
@@ -1189,7 +1189,7 @@
   },
   {
     "source": "https://www.berlin.de/sen/gpg/service/presse/2020/pressemitteilung.933335.php",
-    "date": "2020-05-15",
+    "date": "2020-05-15T12:00:00",
     "counts_per_district": {
       "lor_01": {
         "case_count": 931,
@@ -1255,7 +1255,7 @@
   },
   {
     "source": "https://www.berlin.de/sen/gpg/service/presse/2020/pressemitteilung.932611.php",
-    "date": "2020-05-14",
+    "date": "2020-05-14T12:00:00",
     "counts_per_district": {
       "lor_01": {
         "case_count": 929,
@@ -1321,7 +1321,7 @@
   },
   {
     "source": "https://www.berlin.de/sen/gpg/service/presse/2020/pressemitteilung.931794.php",
-    "date": "2020-05-13",
+    "date": "2020-05-13T12:00:00",
     "counts_per_district": {
       "lor_01": {
         "case_count": 920,
@@ -1387,7 +1387,7 @@
   },
   {
     "source": "https://www.berlin.de/sen/gpg/service/presse/2020/pressemitteilung.931225.php",
-    "date": "2020-05-12",
+    "date": "2020-05-12T12:00:00",
     "counts_per_district": {
       "lor_01": {
         "case_count": 915,
@@ -1453,7 +1453,7 @@
   },
   {
     "source": "https://www.berlin.de/sen/gpg/service/presse/2020/pressemitteilung.930549.php",
-    "date": "2020-05-11",
+    "date": "2020-05-11T12:00:00",
     "counts_per_district": {
       "lor_01": {
         "case_count": 912,
@@ -1519,7 +1519,7 @@
   },
   {
     "source": "https://www.berlin.de/sen/gpg/service/presse/2020/pressemitteilung.930050.php",
-    "date": "2020-05-10",
+    "date": "2020-05-10T12:00:00",
     "counts_per_district": {
       "lor_01": {
         "case_count": 912,
@@ -1585,7 +1585,7 @@
   },
   {
     "source": "https://www.berlin.de/sen/gpg/service/presse/2020/pressemitteilung.930009.php",
-    "date": "2020-05-09",
+    "date": "2020-05-09T12:00:00",
     "counts_per_district": {
       "lor_01": {
         "case_count": 910,
@@ -1651,7 +1651,7 @@
   },
   {
     "source": "https://www.berlin.de/sen/gpg/service/presse/2020/pressemitteilung.929989.php",
-    "date": "2020-05-08",
+    "date": "2020-05-08T12:00:00",
     "counts_per_district": {
       "lor_01": {
         "case_count": 910,
@@ -1717,7 +1717,7 @@
   },
   {
     "source": "https://www.berlin.de/sen/gpg/service/presse/2020/pressemitteilung.929932.php",
-    "date": "2020-05-07",
+    "date": "2020-05-07T12:00:00",
     "counts_per_district": {
       "lor_01": {
         "case_count": 905,
@@ -1783,7 +1783,7 @@
   },
   {
     "source": "https://www.berlin.de/sen/gpg/service/presse/2020/pressemitteilung.929317.php",
-    "date": "2020-05-06",
+    "date": "2020-05-06T12:00:00",
     "counts_per_district": {
       "lor_01": {
         "case_count": 899,
@@ -1849,7 +1849,7 @@
   },
   {
     "source": "https://www.berlin.de/sen/gpg/service/presse/2020/pressemitteilung.928753.php",
-    "date": "2020-05-05",
+    "date": "2020-05-05T12:00:00",
     "counts_per_district": {
       "lor_01": {
         "case_count": 888,
@@ -1915,7 +1915,7 @@
   },
   {
     "source": "https://www.berlin.de/sen/gpg/service/presse/2020/pressemitteilung.928297.php",
-    "date": "2020-05-04",
+    "date": "2020-05-04T12:00:00",
     "counts_per_district": {
       "lor_01": {
         "case_count": 882,
@@ -1981,7 +1981,7 @@
   },
   {
     "source": "https://www.berlin.de/sen/gpg/service/presse/2020/pressemitteilung.927973.php",
-    "date": "2020-05-03",
+    "date": "2020-05-03T12:00:00",
     "counts_per_district": {
       "lor_01": {
         "case_count": 879,
@@ -2047,7 +2047,7 @@
   },
   {
     "source": "https://www.berlin.de/sen/gpg/service/presse/2020/pressemitteilung.927951.php",
-    "date": "2020-05-02",
+    "date": "2020-05-02T12:15:00",
     "counts_per_district": {
       "lor_01": {
         "case_count": 875,
@@ -2113,7 +2113,7 @@
   },
   {
     "source": "https://www.berlin.de/sen/gpg/service/presse/2020/pressemitteilung.927927.php",
-    "date": "2020-05-01",
+    "date": "2020-05-01T12:15:00",
     "counts_per_district": {
       "lor_01": {
         "case_count": 872,
@@ -2179,7 +2179,7 @@
   },
   {
     "source": "https://www.berlin.de/sen/gpg/service/presse/2020/pressemitteilung.927844.php",
-    "date": "2020-04-30",
+    "date": "2020-04-30T12:00:00",
     "counts_per_district": {
       "lor_01": {
         "case_count": 871,
@@ -2245,7 +2245,7 @@
   },
   {
     "source": "https://www.berlin.de/sen/gpg/service/presse/2020/pressemitteilung.927214.php",
-    "date": "2020-04-29",
+    "date": "2020-04-29T12:00:00",
     "counts_per_district": {
       "lor_01": {
         "case_count": 861,
@@ -2311,7 +2311,7 @@
   },
   {
     "source": "https://www.berlin.de/sen/gpg/service/presse/2020/pressemitteilung.926694.php",
-    "date": "2020-04-28",
+    "date": "2020-04-28T12:00:00",
     "counts_per_district": {
       "lor_01": {
         "case_count": 847,
@@ -2377,7 +2377,7 @@
   },
   {
     "source": "https://www.berlin.de/sen/gpg/service/presse/2020/pressemitteilung.926136.php",
-    "date": "2020-04-27",
+    "date": "2020-04-27T12:00:00",
     "counts_per_district": {
       "lor_01": {
         "case_count": 847,
@@ -2443,7 +2443,7 @@
   },
   {
     "source": "https://www.berlin.de/sen/gpg/service/presse/2020/pressemitteilung.925544.php",
-    "date": "2020-04-25",
+    "date": "2020-04-25T12:00:00",
     "counts_per_district": {
       "lor_01": {
         "case_count": 826,
@@ -2509,7 +2509,7 @@
   },
   {
     "source": "https://www.berlin.de/sen/gpg/service/presse/2020/pressemitteilung.925508.php",
-    "date": "2020-04-24",
+    "date": "2020-04-24T12:00:00",
     "counts_per_district": {
       "lor_01": {
         "case_count": 826,
@@ -2575,7 +2575,7 @@
   },
   {
     "source": "https://www.berlin.de/sen/gpg/service/presse/2020/pressemitteilung.924944.php",
-    "date": "2020-04-23",
+    "date": "2020-04-23T12:00:00",
     "counts_per_district": {
       "lor_01": {
         "case_count": 823,
@@ -2641,7 +2641,7 @@
   },
   {
     "source": "https://www.berlin.de/sen/gpg/service/presse/2020/pressemitteilung.924129.php",
-    "date": "2020-04-22",
+    "date": "2020-04-22T12:00:00",
     "counts_per_district": {
       "lor_01": {
         "case_count": 807,
@@ -2707,7 +2707,7 @@
   },
   {
     "source": "https://www.berlin.de/sen/gpg/service/presse/2020/pressemitteilung.923515.php",
-    "date": "2020-04-21",
+    "date": "2020-04-21T16:20:00",
     "counts_per_district": {
       "lor_01": {
         "case_count": 807,
@@ -2773,7 +2773,7 @@
   },
   {
     "source": "https://www.berlin.de/sen/gpg/service/presse/2020/pressemitteilung.923025.php",
-    "date": "2020-04-20",
+    "date": "2020-04-20T16:20:00",
     "counts_per_district": {
       "lor_01": {
         "case_count": 803,
@@ -2839,7 +2839,7 @@
   },
   {
     "source": "https://www.berlin.de/sen/gpg/service/presse/2020/pressemitteilung.922235.php",
-    "date": "2020-04-19",
+    "date": "2020-04-19T16:15:00",
     "counts_per_district": {
       "lor_01": {
         "case_count": 798,
@@ -2905,7 +2905,7 @@
   },
   {
     "source": "https://www.berlin.de/sen/gpg/service/presse/2020/pressemitteilung.922211.php",
-    "date": "2020-04-18",
+    "date": "2020-04-18T16:00:00",
     "counts_per_district": {
       "lor_01": {
         "case_count": 792,
@@ -2971,7 +2971,7 @@
   },
   {
     "source": "https://www.berlin.de/sen/gpg/service/presse/2020/pressemitteilung.922167.php",
-    "date": "2020-04-17",
+    "date": "2020-04-17T16:00:00",
     "counts_per_district": {
       "lor_01": {
         "case_count": 783,
@@ -3037,7 +3037,7 @@
   },
   {
     "source": "https://www.berlin.de/sen/gpg/service/presse/2020/pressemitteilung.921230.php",
-    "date": "2020-04-16",
+    "date": "2020-04-16T16:30:00",
     "counts_per_district": {
       "lor_01": {
         "case_count": 765,
@@ -3103,7 +3103,7 @@
   },
   {
     "source": "https://www.berlin.de/sen/gpg/service/presse/2020/pressemitteilung.920364.php",
-    "date": "2020-04-15",
+    "date": "2020-04-15T16:20:00",
     "counts_per_district": {
       "lor_01": {
         "case_count": 748,
@@ -3169,7 +3169,7 @@
   },
   {
     "source": "https://www.berlin.de/sen/gpg/service/presse/2020/pressemitteilung.919926.php",
-    "date": "2020-04-14",
+    "date": "2020-04-14T16:20:00",
     "counts_per_district": {
       "lor_01": {
         "case_count": 732,
@@ -3235,7 +3235,7 @@
   },
   {
     "source": "https://www.berlin.de/sen/gpg/service/presse/2020/pressemitteilung.919386.php",
-    "date": "2020-04-13",
+    "date": "2020-04-13T16:15:00",
     "counts_per_district": {
       "lor_01": {
         "case_count": 723,
@@ -3301,7 +3301,7 @@
   },
   {
     "source": "https://www.berlin.de/sen/gpg/service/presse/2020/pressemitteilung.919278.php",
-    "date": "2020-04-12",
+    "date": "2020-04-12T16:15:00",
     "counts_per_district": {
       "lor_01": {
         "case_count": 697,
@@ -3367,7 +3367,7 @@
   },
   {
     "source": "https://www.berlin.de/sen/gpg/service/presse/2020/pressemitteilung.919237.php",
-    "date": "2020-04-10",
+    "date": "2020-04-10T16:15:00",
     "counts_per_district": {
       "lor_01": {
         "case_count": 656,
@@ -3433,7 +3433,7 @@
   },
   {
     "source": "https://www.berlin.de/sen/gpg/service/presse/2020/pressemitteilung.919206.php",
-    "date": "2020-04-09",
+    "date": "2020-04-09T16:15:00",
     "counts_per_district": {
       "lor_01": {
         "case_count": 640,
@@ -3499,7 +3499,7 @@
   },
   {
     "source": "https://www.berlin.de/sen/gpg/service/presse/2020/pressemitteilung.918433.php",
-    "date": "2020-04-08",
+    "date": "2020-04-08T16:30:00",
     "counts_per_district": {
       "lor_01": {
         "case_count": 617,
@@ -3565,7 +3565,7 @@
   },
   {
     "source": "https://www.berlin.de/sen/gpg/service/presse/2020/pressemitteilung.917938.php",
-    "date": "2020-04-07",
+    "date": "2020-04-07T16:15:00",
     "counts_per_district": {
       "lor_01": {
         "case_count": 597,
@@ -3631,7 +3631,7 @@
   },
   {
     "source": "https://www.berlin.de/sen/gpg/service/presse/2020/pressemitteilung.917304.php",
-    "date": "2020-04-06",
+    "date": "2020-04-06T16:50:00",
     "counts_per_district": {
       "lor_01": {
         "case_count": 580,
@@ -3697,7 +3697,7 @@
   },
   {
     "source": "https://www.berlin.de/sen/gpg/service/presse/2020/pressemitteilung.916463.php",
-    "date": "2020-04-05",
+    "date": "2020-04-05T16:30:00",
     "counts_per_district": {
       "lor_01": {
         "case_count": 537,
@@ -3763,7 +3763,7 @@
   },
   {
     "source": "https://www.berlin.de/sen/gpg/service/presse/2020/pressemitteilung.916248.php",
-    "date": "2020-04-04",
+    "date": "2020-04-04T16:30:00",
     "counts_per_district": {
       "lor_01": {
         "case_count": 523,
@@ -3829,7 +3829,7 @@
   },
   {
     "source": "https://www.berlin.de/sen/gpg/service/presse/2020/pressemitteilung.916085.php",
-    "date": "2020-04-03",
+    "date": "2020-04-03T16:15:00",
     "counts_per_district": {
       "lor_01": {
         "case_count": 501,
@@ -3895,7 +3895,7 @@
   },
   {
     "source": "https://www.berlin.de/sen/gpg/service/presse/2020/pressemitteilung.915457.php",
-    "date": "2020-04-02",
+    "date": "2020-04-02T16:15:00",
     "counts_per_district": {
       "lor_01": {
         "case_count": 497,
@@ -3961,7 +3961,7 @@
   },
   {
     "source": "https://www.berlin.de/sen/gpg/service/presse/2020/pressemitteilung.914864.php",
-    "date": "2020-04-01",
+    "date": "2020-04-01T16:15:00",
     "counts_per_district": {
       "lor_01": {
         "case_count": 479,
@@ -4027,7 +4027,7 @@
   },
   {
     "source": "https://www.berlin.de/sen/gpg/service/presse/2020/pressemitteilung.914294.php",
-    "date": "2020-03-31",
+    "date": "2020-03-31T16:30:00",
     "counts_per_district": {
       "lor_01": {
         "case_count": 445,
@@ -4093,7 +4093,7 @@
   },
   {
     "source": "https://www.berlin.de/sen/gpg/service/presse/2020/pressemitteilung.913701.php",
-    "date": "2020-03-30",
+    "date": "2020-03-30T16:30:00",
     "counts_per_district": {
       "lor_01": {
         "case_count": 410,
@@ -4159,7 +4159,7 @@
   },
   {
     "source": "https://www.berlin.de/sen/gpg/service/presse/2020/pressemitteilung.913123.php",
-    "date": "2020-03-29",
+    "date": "2020-03-29T16:30:00",
     "counts_per_district": {
       "lor_01": {
         "case_count": 398,
@@ -4225,7 +4225,7 @@
   },
   {
     "source": "https://www.berlin.de/sen/gpg/service/presse/2020/pressemitteilung.913086.php",
-    "date": "2020-03-28",
+    "date": "2020-03-28T16:40:00",
     "counts_per_district": {
       "lor_01": {
         "case_count": 367,
@@ -4291,7 +4291,7 @@
   },
   {
     "source": "https://www.berlin.de/sen/gpg/service/presse/2020/pressemitteilung.913050.php",
-    "date": "2020-03-27",
+    "date": "2020-03-27T16:30:00",
     "counts_per_district": {
       "lor_01": {
         "case_count": 331,
@@ -4357,7 +4357,7 @@
   },
   {
     "source": "https://www.berlin.de/sen/gpg/service/presse/2020/pressemitteilung.912475.php",
-    "date": "2020-03-26",
+    "date": "2020-03-26T16:30:00",
     "counts_per_district": {
       "lor_01": {
         "case_count": 311,
@@ -4411,7 +4411,7 @@
   },
   {
     "source": "https://www.berlin.de/sen/gpg/service/presse/2020/pressemitteilung.911935.php",
-    "date": "2020-03-25",
+    "date": "2020-03-25T16:30:00",
     "counts_per_district": {
       "lor_01": {
         "case_count": 254,
@@ -4465,7 +4465,7 @@
   },
   {
     "source": "https://www.berlin.de/sen/gpg/service/presse/2020/pressemitteilung.911446.php",
-    "date": "2020-03-24",
+    "date": "2020-03-24T16:30:00",
     "counts_per_district": {
       "lor_01": {
         "case_count": 223,
@@ -4519,7 +4519,7 @@
   },
   {
     "source": "https://www.berlin.de/sen/gpg/service/presse/2020/pressemitteilung.910780.php",
-    "date": "2020-03-23",
+    "date": "2020-03-23T16:30:00",
     "counts_per_district": {
       "lor_01": {
         "case_count": 189,
@@ -4573,7 +4573,7 @@
   },
   {
     "source": "https://www.berlin.de/sen/gpg/service/presse/2020/pressemitteilung.910269.php",
-    "date": "2020-03-22",
+    "date": "2020-03-22T16:30:00",
     "counts_per_district": {
       "lor_01": {
         "case_count": 159,
@@ -4627,7 +4627,7 @@
   },
   {
     "source": "https://www.berlin.de/sen/gpg/service/presse/2020/pressemitteilung.910229.php",
-    "date": "2020-03-21",
+    "date": "2020-03-21T16:30:00",
     "counts_per_district": {
       "lor_01": {
         "case_count": 133,
@@ -4681,7 +4681,7 @@
   },
   {
     "source": "https://www.berlin.de/sen/gpg/service/presse/2020/pressemitteilung.910149.php",
-    "date": "2020-03-20",
+    "date": "2020-03-20T16:15:00",
     "counts_per_district": {
       "lor_01": {
         "case_count": 132,
@@ -4735,7 +4735,7 @@
   },
   {
     "source": "https://www.berlin.de/sen/gpg/service/presse/2020/pressemitteilung.909709.php",
-    "date": "2020-03-19",
+    "date": "2020-03-19T16:15:00",
     "counts_per_district": {
       "lor_01": {
         "case_count": 114,
@@ -4789,7 +4789,7 @@
   },
   {
     "source": "https://www.berlin.de/sen/gpg/service/presse/2020/pressemitteilung.908928.php",
-    "date": "2020-03-18",
+    "date": "2020-03-18T16:15:00",
     "counts_per_district": {
       "lor_01": {
         "case_count": 85,
@@ -4843,7 +4843,7 @@
   },
   {
     "source": "https://www.berlin.de/sen/gpg/service/presse/2020/pressemitteilung.908263.php",
-    "date": "2020-03-17",
+    "date": "2020-03-17T16:15:00",
     "counts_per_district": {
       "lor_01": {
         "case_count": 59,
@@ -4897,7 +4897,7 @@
   },
   {
     "source": "https://www.berlin.de/sen/gpg/service/presse/2020/pressemitteilung.907568.php",
-    "date": "2020-03-16",
+    "date": "2020-03-16T16:15:00",
     "counts_per_district": {
       "lor_01": {
         "case_count": 51,
@@ -4950,62 +4950,8 @@
     }
   },
   {
-    "source": "https://www.berlin.de/sen/gpg/service/presse/2020/pressemitteilung.906914.php",
-    "date": "2020-03-15",
-    "counts_per_district": {
-      "lor_01": {
-        "case_count": 41,
-        "incidence": 10.7
-      },
-      "lor_02": {
-        "case_count": 29,
-        "incidence": 10
-      },
-      "lor_03": {
-        "case_count": 26,
-        "incidence": 6.4
-      },
-      "lor_04": {
-        "case_count": 49,
-        "incidence": 14.4
-      },
-      "lor_05": {
-        "case_count": 9,
-        "incidence": 3.7
-      },
-      "lor_06": {
-        "case_count": 31,
-        "incidence": 10.1
-      },
-      "lor_07": {
-        "case_count": 24,
-        "incidence": 6.8
-      },
-      "lor_08": {
-        "case_count": 18,
-        "incidence": 6.4
-      },
-      "lor_09": {
-        "case_count": 8,
-        "incidence": 3
-      },
-      "lor_10": {
-        "case_count": 9,
-        "incidence": 3.3
-      },
-      "lor_11": {
-        "case_count": 8,
-        "incidence": 2.8
-      },
-      "lor_12": {
-        "case_count": 11,
-        "incidence": 4.2
-      }
-    }
-  },
-  {
     "source": "https://www.berlin.de/sen/gpg/service/presse/2020/pressemitteilung.906973.php",
-    "date": "2020-03-15",
+    "date": "2020-03-15T16:15:00",
     "counts_per_district": {
       "lor_01": {
         "case_count": 45,
@@ -5058,8 +5004,62 @@
     }
   },
   {
+    "source": "https://www.berlin.de/sen/gpg/service/presse/2020/pressemitteilung.906914.php",
+    "date": "2020-03-14T16:15:00",
+    "counts_per_district": {
+      "lor_01": {
+        "case_count": 41,
+        "incidence": 10.7
+      },
+      "lor_02": {
+        "case_count": 29,
+        "incidence": 10
+      },
+      "lor_03": {
+        "case_count": 26,
+        "incidence": 6.4
+      },
+      "lor_04": {
+        "case_count": 49,
+        "incidence": 14.4
+      },
+      "lor_05": {
+        "case_count": 9,
+        "incidence": 3.7
+      },
+      "lor_06": {
+        "case_count": 31,
+        "incidence": 10.1
+      },
+      "lor_07": {
+        "case_count": 24,
+        "incidence": 6.8
+      },
+      "lor_08": {
+        "case_count": 18,
+        "incidence": 6.4
+      },
+      "lor_09": {
+        "case_count": 8,
+        "incidence": 3
+      },
+      "lor_10": {
+        "case_count": 9,
+        "incidence": 3.3
+      },
+      "lor_11": {
+        "case_count": 8,
+        "incidence": 2.8
+      },
+      "lor_12": {
+        "case_count": 11,
+        "incidence": 4.2
+      }
+    }
+  },
+  {
     "source": "https://www.berlin.de/sen/gpg/service/presse/2020/pressemitteilung.906554.php",
-    "date": "2020-03-13",
+    "date": "2020-03-12T16:30:00",
     "counts_per_district": {
       "lor_01": {
         "case_count": 20,
@@ -5113,7 +5113,7 @@
   },
   {
     "source": "https://www.berlin.de/sen/gpg/service/presse/2020/pressemitteilung.905946.php",
-    "date": "2020-03-12",
+    "date": "2020-03-11T16:30:00",
     "counts_per_district": {
       "lor_01": {
         "case_count": 18,
@@ -5167,7 +5167,7 @@
   },
   {
     "source": "https://www.berlin.de/sen/gpg/service/presse/2020/pressemitteilung.905504.php",
-    "date": "2020-03-11",
+    "date": "2020-03-10T16:30:00",
     "counts_per_district": {
       "lor_01": {
         "case_count": 8,
@@ -5221,7 +5221,8 @@
   },
   {
     "source": "https://www.berlin.de/sen/gpg/service/presse/2020/pressemitteilung.905079.php",
-    "date": "2020-03-10",
+    "date": "2020-03-10T12:00:00",
+    "comment": "Only a date has been given in this press release, no time. The time given in the 'date'-field is a guess.",
     "counts_per_district": {
       "lor_01": {
         "case_count": 8
@@ -5263,7 +5264,7 @@
   },
   {
     "source": "https://www.berlin.de/sen/gpg/service/presse/2020/pressemitteilung.904264.php",
-    "date": "2020-03-09",
+    "date": "2020-03-09T09:30:00",
     "counts_per_district": {
       "lor_01": {
         "case_count": 8
@@ -5305,7 +5306,7 @@
   },
   {
     "source": "https://www.berlin.de/sen/gpg/service/presse/2020/pressemitteilung.904147.php",
-    "date": "2020-03-08",
+    "date": "2020-03-08T09:30:00",
     "counts_per_district": {
       "lor_01": {
         "case_count": 8
@@ -5343,6 +5344,7 @@
       "lor_12": {
         "case_count": 3
       }
-    }
+    },
+    "comment": "Only a date has been given in this press release, no time. The time given in the 'date'-field is a guess, based on the press release from 2020-03-09."
   }
 ]
