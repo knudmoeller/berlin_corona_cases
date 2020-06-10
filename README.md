@@ -188,4 +188,4 @@ If you find bugs in the code or in the data, please let me know by opening an is
 
 2020, Knud Möller
 
-Last changed: 2020-06-09
+Last changed: 2020-06-10
