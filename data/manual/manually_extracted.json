@@ -1,6 +1,7 @@
 [
     {
         "source": "https://www.berlin.de/sen/gpg/service/presse/2020/pressemitteilung.916463.php",
+        "pr_date": "2020-04-05",
         "date": "2020-04-05T16:30:00",
         "counts_per_district": {
             "lor_01": {
@@ -121,6 +122,7 @@
     },
     {
         "source": "https://www.berlin.de/sen/gpg/service/presse/2020/pressemitteilung.916248.php",
+        "pr_date": "2020-04-04",
         "date": "2020-04-04T16:30:00",
         "counts_per_district": {
             "lor_01": {
@@ -241,6 +243,7 @@
     },
     {
         "source": "https://www.berlin.de/sen/gpg/service/presse/2020/pressemitteilung.916085.php",
+        "pr_date": "2020-04-03",
         "date": "2020-04-03T16:15:00",
         "counts_per_district": {
             "lor_01": {
