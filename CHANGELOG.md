@@ -2,6 +2,13 @@
 
 ## Development
 
+## 0.2.0
+
+- Add a second scraper for the Corona traffic light press releases.
+- Add `pr_date` (date of press release) to case number data.
+- Move some scraper helper methods up to module.
+- Restructure make targets: there is now one for each scraper (`case-numbers` and `traffic-light`). Both are now triggered by `data`.
+
 ## 0.1.0
 
 - Counts per age group have been added as a new key `counts_per_age_group` for each press release that includes them (all but the very first ones).
