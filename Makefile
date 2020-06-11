@@ -10,10 +10,10 @@ data/target/berlin_corona_cases.json: data/temp/berlin_corona_cases_scraped.json
 	@echo "writing to $@ ..."
 	@jq -s '[.[][]] | sort_by(.date) | reverse' $^ > $@
 
-data/target/berlin_corona_traffic_light.json: data/temp/berlin_corona_traffic_light.json | data/target
-	@echo "sorting and formatting $< ..."
+data/target/berlin_corona_traffic_light.json: data/temp/berlin_corona_traffic_light.json data/manual/manually_extracted_traffic_light.json | data/target
+	@echo "combining, sorting and formatting JSON files ($^) ..."
 	@echo "writing to $@ ..."
-	@jq ". | sort_by(.pr_date) | reverse" $< > $@
+	@jq -s '[.[][]] | sort_by(.pr_date) | reverse' $^ > $@
 
 data/target/berlin_corona_traffic_light.latest.json: data/target/berlin_corona_traffic_light.json
 	@echo "extracting latest set of traffic light indicators from $< ..."
