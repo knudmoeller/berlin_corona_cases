@@ -1,6 +1,7 @@
 from collections import OrderedDict
 import re
 import scrapy
+from coronaberlin.spiders import parse_german_float, remove_thousand_separator
 
 class CoronaSpider(scrapy.Spider):
     name = "berlin-corona-scraper"
@@ -86,7 +87,7 @@ class CoronaSpider(scrapy.Spider):
             cells = row.css('td::text')
             district = self.parse_district(cells[0].get().strip())
             case_count = int(self.parse_case_count(cells[1].get().strip()))
-            incidence = self.parse_german_float(cells[2].get().strip())
+            incidence = parse_german_float(cells[2].get().strip())
             per_district[district] = {
                 'case_count': case_count,
                 'incidence': incidence,
@@ -107,7 +108,7 @@ class CoronaSpider(scrapy.Spider):
                 case_count = int(self.parse_case_count(cells[1].get().strip()))
                 incidence = "n.a."
                 if age_group != "unbekannt":
-                    incidence = self.parse_german_float(cells[2].get().strip())
+                    incidence = parse_german_float(cells[2].get().strip())
                 else:
                     age_group = "unknown"
                 per_age_group[age_group] = {
@@ -145,7 +146,7 @@ class CoronaSpider(scrapy.Spider):
     def parse_case_count(self, case_count):
         count_match = CoronaSpider.case_count_pattern.match(case_count.strip())
         case_count = count_match.group(1)
-        case_count = self.remove_thousand_separator(case_count)
+        case_count = remove_thousand_separator(case_count)
         return case_count
 
     def parse_recovered(self, value):
@@ -154,9 +155,3 @@ class CoronaSpider(scrapy.Spider):
             return "n.a."
         else:
             return int(value)
-
-    def parse_german_float(self, number):
-        return float(number.replace(',', '.'))
-
-    def remove_thousand_separator(self, number):
-        return number.replace('.','')
