@@ -1,7 +1,7 @@
 from collections import OrderedDict
 import re
 import scrapy
-from coronaberlin.spiders import parse_german_float, remove_thousand_separator
+from coronaberlin.spiders import parse_german_float, remove_thousand_separator, extract_pr_date
 
 class CoronaSpider(scrapy.Spider):
     name = "berlin-corona-scraper"
@@ -49,10 +49,11 @@ class CoronaSpider(scrapy.Spider):
 
     def parse_corona_pr(self, response):
         result = {
-            'source': response.url
+            'source': response.url ,
+            'pr_date': extract_pr_date(response)
         }
 
-        # get date
+        # get date of data
         date_texts = response.css('.html5-section.body h2::text')
         if date_texts:
             merged = '|'.join([date_text.get() for date_text in date_texts])
