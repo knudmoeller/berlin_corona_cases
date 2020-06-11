@@ -2,6 +2,10 @@
 
 ## Development
 
+## 0.2.1
+
+- There were two PRs that had falledn through the cracks because they were named differently (2020-05-24 and 2020-05-25). Those two have now been added.
+
 ## 0.2.0
 
 - Add a second scraper for the Corona traffic light press releases.
