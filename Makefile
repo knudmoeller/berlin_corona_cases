@@ -1,6 +1,8 @@
-all: data traffic-light README.md
+all: data README.md
 
-data: data/target/berlin_corona_cases.json
+data: case-numbers traffic-light
+
+case-numbers: data/target/berlin_corona_cases.json
 traffic-light: data/target/berlin_corona_traffic_light.latest.json
 
 data/target/berlin_corona_cases.json: data/temp/berlin_corona_cases_scraped.json data/manual/manually_extracted.json | data/target
