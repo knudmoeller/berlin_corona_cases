@@ -364,6 +364,7 @@
     } ,
     {
         "source": "https://www.berlin.de/sen/gpg/service/presse/2020/pressemitteilung.905079.php",
+        "pr_date": "2020-03-10",
         "date": "2020-03-10T12:00:00",
         "comment": "Only a date has been given in this press release, no time. The time given in the 'date'-field is a guess.",
         "counts_per_district": {
