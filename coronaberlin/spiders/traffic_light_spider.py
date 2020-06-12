@@ -24,7 +24,7 @@ class TrafficLightSpider(scrapy.Spider):
 
 
     # regex patterns
-    corona_traffic_light_pattern = re.compile(r'Corona-Ampel: Die aktuellen Indikatoren')
+    corona_traffic_light_pattern = re.compile(r'Corona-Ampel(.+) Die aktuellen Indikatoren')
     value_pattern = re.compile(r'(\d+,\d+)')
 
     def parse(self, response):
@@ -33,7 +33,7 @@ class TrafficLightSpider(scrapy.Spider):
             [page_link
              for page_link
              in press_release_page_links
-             if TrafficLightSpider.corona_traffic_light_pattern.match(page_link.css('::text').get())]
+             if TrafficLightSpider.corona_traffic_light_pattern.search(page_link.css('::text').get().strip())]
 
         if traffic_light_links:
             yield from response.follow_all(traffic_light_links, self.parse_traffic_light_pr)
