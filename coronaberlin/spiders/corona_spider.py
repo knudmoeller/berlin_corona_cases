@@ -26,7 +26,7 @@ class CoronaSpider(scrapy.Spider):
     }
 
     # regex patterns
-    corona_press_release_pattern = re.compile(r'Coronavirus: Derzeit \d+ bestätigte Fälle in Berlin')
+    corona_press_release_pattern = re.compile(r'Coronavirus: Derzeit [\d\.]+ bestätigte Fälle in Berlin')
     corona_press_release_pattern2 = re.compile(r'Coronavirus in Berlin: Bestätigte Fälle und Corona-Ampel')
     datetime_pattern = re.compile(r'(\d\d)\.(\d\d)\.(\d\d\d\d), (\d\d)\:(\d\d)')
     case_count_pattern = re.compile(r'((\d|\.)+)\s*(\(.+\))?')
