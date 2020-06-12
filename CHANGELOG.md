@@ -2,9 +2,13 @@
 
 ## Development
 
+## 0.2.2
+
+- To more case number PRs (2020-04-26 and 2020-04-11) and two traffic light PRs (2020-06-08 and 2020-05-31) had been missing because the patterns to match their titles were too restrictive. They are now included.
+
 ## 0.2.1
 
-- There were two PRs that had falledn through the cracks because they were named differently (2020-05-24 and 2020-05-25). Those two have now been added.
+- There were two PRs that had fallen through the cracks because they were named differently (2020-05-24 and 2020-05-25). Those two have now been added.
 
 ## 0.2.0
 
