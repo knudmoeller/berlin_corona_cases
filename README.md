@@ -212,8 +212,16 @@ I will try to update the data regularly, but if you want to run the scraper your
 
 ### Installation
 
-Ideally, you have a Python virtual environment enabled where Scrapy is installed.
+First, install the Scrapy framework.
 To achieve this, follow the [installation guide in the Scrapy documentation](https://docs.scrapy.org/en/latest/intro/install.html).
+Next, you need to define an environment variable `SCRAPY_HOME` which points to the folder where Scrapy is installed.
+This environment variable is used in the Makefile to the virtual environment where scrapy is enabled.
+E.g., I have added something like the following line to my `.bashrc`:
+
+```shell
+export SCRAPY_HOME=/home/knud/path/to/scrapy/
+```
+
 Once you have done this, you can clone this repository anywhere you like and run the desired make target (see below).
 
 ### Make Targets
@@ -264,4 +272,4 @@ If you find bugs in the code or in the data, please let me know by opening an is
 
 2020, Knud Möller
 
-Last changed: 2020-06-12
+Last changed: 2020-06-13

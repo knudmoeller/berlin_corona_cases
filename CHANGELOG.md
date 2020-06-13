@@ -2,6 +2,10 @@
 
 ## Development
 
+## 0.2.3
+
+- Enable the Scrapy venv from within the Makefile. This requires a `SCRAPY_HOME` environment variable to be set (see README).
+
 ## 0.2.2
 
 - Two more case number PRs (2020-04-26 and 2020-04-11) and two traffic light PRs (2020-06-08 and 2020-05-31) had been missing because the patterns to match their titles were too restrictive. They are now included.

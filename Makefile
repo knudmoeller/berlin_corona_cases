@@ -25,14 +25,14 @@ data/temp/berlin_corona_cases_scraped.json: | data/temp
 	@echo "scraping corona case numbers from berlin.de ..."
 	@echo "writing to $@ ..."
 	@rm -f $@
-	@scrapy crawl berlin-corona-scraper -o $@
+	@. ${SCRAPY_HOME}/bin/activate ; scrapy crawl berlin-corona-scraper -o $@
 
 .PHONY: data/temp/berlin_corona_traffic_light.json
 data/temp/berlin_corona_traffic_light.json: | data/temp
 	@echo "scraping corona traffic light numbers from berlin.de ..."
 	@echo "writing to $@ ..."
 	@rm -f $@
-	@scrapy crawl corona-traffic-light-scraper -o $@
+	@. ${SCRAPY_HOME}/bin/activate ; scrapy crawl corona-traffic-light-scraper -o $@
 
 .PHONY: README.md
 README.md: data/temp/date.txt
