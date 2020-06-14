@@ -1,9 +1,9 @@
 {
-  "source": "https://www.berlin.de/sen/gpg/service/presse/2020/pressemitteilung.944543.php",
-  "pr_date": "2020-06-13",
+  "source": "https://www.berlin.de/sen/gpg/service/presse/2020/pressemitteilung.944567.php",
+  "pr_date": "2020-06-14",
   "indicators": {
     "basic_reproduction_number": {
-      "value": 0.9,
+      "value": 1.11,
       "color": "green"
     },
     "incidence_new_infections": {
