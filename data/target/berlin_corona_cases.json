@@ -1,5 +1,130 @@
 [
   {
+    "source": "https://www.berlin.de/sen/gpg/service/presse/2020/pressemitteilung.945284.php",
+    "pr_date": "2020-06-15",
+    "date": "2020-06-15T12:00:00",
+    "counts_per_district": {
+      "lor_01": {
+        "case_count": 1062,
+        "incidence": 275.3,
+        "recovered": 985
+      },
+      "lor_02": {
+        "case_count": 572,
+        "incidence": 197,
+        "recovered": 536
+      },
+      "lor_03": {
+        "case_count": 735,
+        "incidence": 179.6,
+        "recovered": 675
+      },
+      "lor_04": {
+        "case_count": 778,
+        "incidence": 226.4,
+        "recovered": 730
+      },
+      "lor_05": {
+        "case_count": 370,
+        "incidence": 150.9,
+        "recovered": 305
+      },
+      "lor_06": {
+        "case_count": 567,
+        "incidence": 182.9,
+        "recovered": 534
+      },
+      "lor_07": {
+        "case_count": 721,
+        "incidence": 205.4,
+        "recovered": 664
+      },
+      "lor_08": {
+        "case_count": 863,
+        "incidence": 261.6,
+        "recovered": 728
+      },
+      "lor_09": {
+        "case_count": 369,
+        "incidence": 134.8,
+        "recovered": 343
+      },
+      "lor_10": {
+        "case_count": 400,
+        "incidence": 148.2,
+        "recovered": 370
+      },
+      "lor_11": {
+        "case_count": 367,
+        "incidence": 124.7,
+        "recovered": 314
+      },
+      "lor_12": {
+        "case_count": 564,
+        "incidence": 211.7,
+        "recovered": 501
+      }
+    },
+    "counts_per_age_group": {
+      "0-4": {
+        "case_count": 144,
+        "incidence": 75.9
+      },
+      "5-9": {
+        "case_count": 129,
+        "incidence": 75.1
+      },
+      "10-14": {
+        "case_count": 185,
+        "incidence": 118.2
+      },
+      "15-19": {
+        "case_count": 236,
+        "incidence": 157.5
+      },
+      "20-24": {
+        "case_count": 499,
+        "incidence": 244.3
+      },
+      "25-29": {
+        "case_count": 748,
+        "incidence": 260.5
+      },
+      "30-39": {
+        "case_count": 1493,
+        "incidence": 229.3
+      },
+      "40-49": {
+        "case_count": 1113,
+        "incidence": 229.8
+      },
+      "50-59": {
+        "case_count": 1177,
+        "incidence": 216.6
+      },
+      "60-69": {
+        "case_count": 606,
+        "incidence": 152.4
+      },
+      "70-79": {
+        "case_count": 490,
+        "incidence": 153.9
+      },
+      "80-89": {
+        "case_count": 418,
+        "incidence": 226.6
+      },
+      "90+": {
+        "case_count": 129,
+        "incidence": 413.9
+      },
+      "unknown": {
+        "case_count": 1,
+        "incidence": "n.a."
+      }
+    }
+  },
+  {
     "source": "https://www.berlin.de/sen/gpg/service/presse/2020/pressemitteilung.944569.php",
     "pr_date": "2020-06-14",
     "date": "2020-06-14T12:00:00",
