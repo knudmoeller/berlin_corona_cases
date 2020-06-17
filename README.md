@@ -2,6 +2,11 @@
 
 ![logo for "Coronavirus Cases Scraper for Berlin" project](logo/corona_cases_berlin_small.png)
 
+### Quick Links
+
+* [Timeline of case numbers](data/target/berlin_corona_cases.json)
+* [Timeline of traffic light indicators ("Corona Ampel")](data/target/berlin_corona_traffic_light.json)
+
 This is a scraper for the (almost) daily press releases announcing the current Corona/COVID-19 case numbers for Berlin, as issued by the [Senatsverwaltung für Gesundheit, Pflege und Gleichstellung](https://www.berlin.de/sen/gpg/) (Senate Department for Health, Care and Equality).
 
 A second scraper extracts the three "traffic light" indicators (basic reproduction number R, incidence of new infections per week, ICU occupancy rate).
@@ -272,4 +277,4 @@ If you find bugs in the code or in the data, please let me know by opening an is
 
 2020, Knud Möller
 
-Last changed: 2020-06-16
+Last changed: 2020-06-17

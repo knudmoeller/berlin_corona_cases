@@ -2,6 +2,8 @@
 
 ## Development
 
+- Add quick links to data files at the top of the README).
+
 ## 0.2.3
 
 - Enable the Scrapy venv from within the Makefile. This requires a `SCRAPY_HOME` environment variable to be set (see README).
