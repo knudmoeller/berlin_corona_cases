@@ -1,13 +1,13 @@
 {
-  "source": "https://www.berlin.de/sen/gpg/service/presse/2020/pressemitteilung.948468.php",
-  "pr_date": "2020-06-21",
+  "source": "https://www.berlin.de/sen/gpg/service/presse/2020/pressemitteilung.949170.php",
+  "pr_date": "2020-06-22",
   "indicators": {
     "basic_reproduction_number": {
-      "value": 1.58,
+      "value": 2.06,
       "color": "green"
     },
     "incidence_new_infections": {
-      "value": 8.78,
+      "value": 12.59,
       "color": "green"
     },
     "icu_occupancy_rate": {
