@@ -2,7 +2,10 @@
 
 ## Development
 
+## 0.2.4
+
 - Add quick links to data files at the top of the README).
+- Add conditions to deal with bad source data for data's date (yeah).
 
 ## 0.2.3
 

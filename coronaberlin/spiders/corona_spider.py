@@ -56,12 +56,16 @@ class CoronaSpider(scrapy.Spider):
         }
 
         # get date of data
-        date_texts = response.css('.html5-section.body h2::text')
-        if date_texts:
-            merged = '|'.join([date_text.get() for date_text in date_texts])
-            date_match = CoronaSpider.datetime_pattern.search(merged)
-            iso_date = "{}-{}-{}T{}:{}:00".format(date_match.group(3), date_match.group(2), date_match.group(1), date_match.group(4), date_match.group(5))
-            result['date'] = iso_date
+        # first, deal with cases of bad source data:
+        if response.url == "https://www.berlin.de/sen/gpg/service/presse/2020/pressemitteilung.963716.php":
+            result['date'] = "2020-07-21T12:00:00"
+        else:
+            date_texts = response.css('.html5-section.body h2::text')
+            if date_texts:
+                merged = '|'.join([date_text.get() for date_text in date_texts])
+                date_match = CoronaSpider.datetime_pattern.search(merged)
+                iso_date = "{}-{}-{}T{}:{}:00".format(date_match.group(3), date_match.group(2), date_match.group(1), date_match.group(4), date_match.group(5))
+                result['date'] = iso_date
 
         list_pages = {
             'https://www.berlin.de/sen/gpg/service/presse/2020/pressemitteilung.904147.php': '2020-03-08T09:30:00' ,
