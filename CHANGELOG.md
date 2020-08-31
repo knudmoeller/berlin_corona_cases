@@ -2,6 +2,11 @@
 
 ## Development
 
+## 0.3.0
+
+- The Senatsverwaltung stopped publishing corona press releases, so the scraper doesn't work anymore. Instead, I will now try to convert the daily JOSN with case numbers and extract the traffic light indicators from the new dashboard at https://www.berlin.de/corona/lagebericht/desktop/corona.html. The press releases weren't great, but at least there was an official record with a history of corona data. Now, there is only the data for the current day, which is lost once new data is published.
+- Initially, the conversion from the new sources is done only half-automatically (it's late...).
+
 ## 0.2.4
 
 - Add quick links to data files at the top of the README).

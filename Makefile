@@ -1,3 +1,6 @@
+PER_DISTRICT_API="https://www.berlin.de/lageso/gesundheit/infektionsepidemiologie-infektionsschutz/corona/tabelle-bezirke/index.php/index/all.json?q="
+PER_AGE_GROUP_API="https://www.berlin.de/lageso/gesundheit/infektionsepidemiologie-infektionsschutz/corona/tabelle-altersgruppen/index.php/index/all.json?q="
+
 all: data README.md
 
 data: case-numbers traffic-light
@@ -33,6 +36,24 @@ data/temp/berlin_corona_traffic_light.json: | data/temp
 	@echo "writing to $@ ..."
 	@rm -f $@
 	@. ${SCRAPY_HOME}/bin/activate ; scrapy crawl corona-traffic-light-scraper -o $@
+
+.PHONY: data/temp/berlin_corona_cases_converted.json
+data/temp/berlin_corona_cases_converted.json: data/temp/cases_per_district.json data/temp/cases_per_age_group.json
+	@echo "converting ($^) to target format ..."
+	@echo "writing to $@ ..."
+	@ruby bin/json2json.rb $^ > $@
+
+.PHONY: data/temp/cases_per_district.json
+data/temp/cases_per_district.json: | data/temp
+	@echo "downloading corona case numbers per district from ${PER_DISTRICT_API} ..."
+	@echo "writing to $@ ..."
+	@curl -s -o $@ ${PER_DISTRICT_API}
+
+.PHONY: data/temp/cases_per_age_group.json
+data/temp/cases_per_age_group.json: | data/temp
+	@echo "downloading corona case numbers per district from ${PER_AGE_GROUP_API} ..."
+	@echo "writing to $@ ..."
+	@curl -s -o $@ ${PER_AGE_GROUP_API}
 
 .PHONY: README.md
 README.md: data/temp/date.txt

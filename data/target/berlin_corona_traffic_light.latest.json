@@ -1,17 +1,18 @@
 {
-  "source": "https://www.berlin.de/sen/gpg/service/presse/2020/pressemitteilung.982682.php",
-  "pr_date": "2020-08-30",
+  "source": "https://www.berlin.de/corona/lagebericht/desktop/corona.html",
+  "comment": "The last Corona press release was published on 2020-08-30. After that, the data is extracted from the dashboard web app with daily updated case numbers and indicators. `pr_date` is only used for backwards-compatibility.",
+  "pr_date": "2020-08-31",
   "indicators": {
     "basic_reproduction_number": {
-      "value": 1.1,
+      "value": 1.25,
       "color": "green"
     },
     "incidence_new_infections": {
-      "value": 12.5,
+      "value": 12.0,
       "color": "green"
     },
     "icu_occupancy_rate": {
-      "value": 1.5,
+      "value": 1.4,
       "color": "green"
     }
   }
