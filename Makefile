@@ -8,37 +8,22 @@ data: case-numbers traffic-light
 case-numbers: data/target/berlin_corona_cases.json
 traffic-light: data/target/berlin_corona_traffic_light.latest.json
 
-data/target/berlin_corona_cases.json: data/temp/berlin_corona_cases_scraped.json data/manual/manually_extracted.json | data/target
-	@echo "combining JSON files ($^) ..."
-	@echo "writing to $@ ..."
-	@jq -s '[.[][]] | sort_by(.date) | reverse' $^ > $@
-
-data/target/berlin_corona_traffic_light.json: data/temp/berlin_corona_traffic_light.json data/manual/manually_extracted_traffic_light.json | data/target
-	@echo "combining, sorting and formatting JSON files ($^) ..."
-	@echo "writing to $@ ..."
-	@jq -s '[.[][]] | sort_by(.pr_date) | reverse' $^ > $@
+data/target/berlin_corona_cases.json: data/temp/cases_combined.json | data/target
+	@echo "copying data from $< to $@ ..."
+	@cp $< $@
 
 data/target/berlin_corona_traffic_light.latest.json: data/target/berlin_corona_traffic_light.json
 	@echo "extracting latest set of traffic light indicators from $< ..."
 	@echo "writing to $@ ..."
 	@jq ".[0]" $< > $@
 
-.PHONY: data/temp/berlin_corona_cases_scraped.json
-data/temp/berlin_corona_cases_scraped.json: | data/temp
-	@echo "scraping corona case numbers from berlin.de ..."
-	@echo "writing to $@ ..."
-	@rm -f $@
-	@. ${SCRAPY_HOME}/bin/activate ; scrapy crawl berlin-corona-scraper -o $@
+.PHONY: data/temp/berlin_corona_cases.json
+data/temp/berlin_corona_cases.json: | data/temp
+	@echo "copying data/target/berlin_corona_cases.json to $@ ..."
+	@cp data/target/berlin_corona_cases.json $@
 
-.PHONY: data/temp/berlin_corona_traffic_light.json
-data/temp/berlin_corona_traffic_light.json: | data/temp
-	@echo "scraping corona traffic light numbers from berlin.de ..."
-	@echo "writing to $@ ..."
-	@rm -f $@
-	@. ${SCRAPY_HOME}/bin/activate ; scrapy crawl corona-traffic-light-scraper -o $@
-
-.PHONY: data/temp/berlin_corona_cases_converted.json
-data/temp/berlin_corona_cases_converted.json: data/temp/cases_per_district.json data/temp/cases_per_age_group.json
+.PHONY: data/temp/cases_combined.json
+data/temp/cases_combined.json: data/temp/cases_per_district.json data/temp/cases_per_age_group.json data/temp/berlin_corona_cases.json
 	@echo "converting ($^) to target format ..."
 	@echo "writing to $@ ..."
 	@ruby bin/json2json.rb $^ > $@
