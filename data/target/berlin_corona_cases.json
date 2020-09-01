@@ -1,5 +1,133 @@
 [
   {
+    "date": "2020-09-01",
+    "source": [
+      "https://daten.berlin.de/datensaetze/covid-19-berlin-verteilung-den-bezirken",
+      "https://daten.berlin.de/datensaetze/covid-19-fälle-im-land-berlin-verteilung-nach-altersgruppen"
+    ],
+    "comment": "The last Corona press release was published on 2020-08-30. After that, the data is extracted from the datasets with daily case numbers as shown in `source`.",
+    "counts_per_district": {
+      "lor_01": {
+        "case_count": "1766",
+        "incidence": "457.8",
+        "recovered": "1624"
+      },
+      "lor_02": {
+        "case_count": "1005",
+        "incidence": "346.1",
+        "recovered": "915"
+      },
+      "lor_03": {
+        "case_count": "1011",
+        "incidence": "247",
+        "recovered": "901"
+      },
+      "lor_04": {
+        "case_count": "1108",
+        "incidence": "322.5",
+        "recovered": "1023"
+      },
+      "lor_05": {
+        "case_count": "632",
+        "incidence": "257.8",
+        "recovered": "576"
+      },
+      "lor_06": {
+        "case_count": "753",
+        "incidence": "242.8",
+        "recovered": "692"
+      },
+      "lor_07": {
+        "case_count": "1045",
+        "incidence": "297.7",
+        "recovered": "958"
+      },
+      "lor_08": {
+        "case_count": "1436",
+        "incidence": "435.3",
+        "recovered": "1293"
+      },
+      "lor_09": {
+        "case_count": "486",
+        "incidence": "177.6",
+        "recovered": "460"
+      },
+      "lor_10": {
+        "case_count": "585",
+        "incidence": "216.7",
+        "recovered": "557"
+      },
+      "lor_11": {
+        "case_count": "654",
+        "incidence": "222.3",
+        "recovered": "577"
+      },
+      "lor_12": {
+        "case_count": "865",
+        "incidence": "324.7",
+        "recovered": "811"
+      }
+    },
+    "counts_per_age_group": {
+      "0-4": {
+        "case_count": "319",
+        "incidence": "168.1"
+      },
+      "5-9": {
+        "case_count": "352",
+        "incidence": "205"
+      },
+      "10-14": {
+        "case_count": "438",
+        "incidence": "279.9"
+      },
+      "15-19": {
+        "case_count": "497",
+        "incidence": "331.7"
+      },
+      "20-24": {
+        "case_count": "969",
+        "incidence": "474.3"
+      },
+      "25-29": {
+        "case_count": "1235",
+        "incidence": "430.1"
+      },
+      "30-39": {
+        "case_count": "2343",
+        "incidence": "359.8"
+      },
+      "40-49": {
+        "case_count": "1701",
+        "incidence": "351.3"
+      },
+      "50-59": {
+        "case_count": "1553",
+        "incidence": "285.9"
+      },
+      "60-69": {
+        "case_count": "754",
+        "incidence": "189.6"
+      },
+      "70-79": {
+        "case_count": "560",
+        "incidence": "175.9"
+      },
+      "80-89": {
+        "case_count": "473",
+        "incidence": "256.4"
+      },
+      "90+": {
+        "case_count": "148",
+        "incidence": "474.9"
+      },
+      "unknown": {
+        "case_count": "4",
+        "incidence": "0"
+      }
+    }
+  },
+  {
     "date": "2020-08-31",
     "pr_date": "n.a.",
     "source": [
