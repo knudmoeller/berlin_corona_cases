@@ -18,7 +18,7 @@ district_mapping = {
     "Reinickendorf" => "lor_12" ,
 }
 
-target_data = {
+new_case_data = {
     :date => Date.today.iso8601 ,
     :source => [
         "https://daten.berlin.de/datensaetze/covid-19-berlin-verteilung-den-bezirken" ,
@@ -32,6 +32,8 @@ source_path_districts = ARGV[0]
 source_data_districts = JSON.parse(File.read(source_path_districts), :symbolize_names => true)
 source_path_age_groups = ARGV[1]
 source_data_age_groups = JSON.parse(File.read(source_path_age_groups), :symbolize_names => true)
+target_data_path = ARGV[2]
+target_data = JSON.parse(File.read(target_data_path))
     
 source_data_districts[:index].each do |source_observation|
     district_name = source_observation[:bezirk]
@@ -41,9 +43,9 @@ source_data_districts[:index].each do |source_observation|
             :incidence => source_observation[:inzidenz] ,
             :recovered => source_observation[:genesen]
         }
-        target_data[:counts_per_district][lor_code.to_s] = target_observation
+        new_case_data[:counts_per_district][lor_code.to_s] = target_observation
     end
-    target_data[:counts_per_district] = target_data[:counts_per_district].sort.to_h
+    new_case_data[:counts_per_district] = new_case_data[:counts_per_district].sort.to_h
 end
 
 source_data_age_groups[:index].each do |source_observation|
@@ -54,8 +56,9 @@ source_data_age_groups[:index].each do |source_observation|
             :case_count => source_observation[:fallzahl] ,
             :incidence => source_observation[:inzidenz] ,
         }
-        target_data[:counts_per_age_group][age_group] = target_observation
+        new_case_data[:counts_per_age_group][age_group] = target_observation
     end
 end
 
+target_data.unshift(new_case_data)
 puts JSON.pretty_generate(target_data)
