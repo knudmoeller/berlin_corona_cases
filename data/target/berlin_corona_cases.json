@@ -1,5 +1,133 @@
 [
   {
+    "date": "2020-09-04",
+    "source": [
+      "https://daten.berlin.de/datensaetze/covid-19-berlin-verteilung-den-bezirken",
+      "https://daten.berlin.de/datensaetze/covid-19-fälle-im-land-berlin-verteilung-nach-altersgruppen"
+    ],
+    "comment": "The last Corona press release was published on 2020-08-30. After that, the data is extracted from the datasets with daily case numbers as shown in `source`.",
+    "counts_per_district": {
+      "lor_01": {
+        "case_count": "1812",
+        "incidence": "469.7",
+        "recovered": "1649"
+      },
+      "lor_02": {
+        "case_count": "1030",
+        "incidence": "354.7",
+        "recovered": "927"
+      },
+      "lor_03": {
+        "case_count": "1032",
+        "incidence": "252.1",
+        "recovered": "912"
+      },
+      "lor_04": {
+        "case_count": "1139",
+        "incidence": "331.5",
+        "recovered": "1042"
+      },
+      "lor_05": {
+        "case_count": "651",
+        "incidence": "265.5",
+        "recovered": "593"
+      },
+      "lor_06": {
+        "case_count": "775",
+        "incidence": "249.9",
+        "recovered": "706"
+      },
+      "lor_07": {
+        "case_count": "1068",
+        "incidence": "304.3",
+        "recovered": "973"
+      },
+      "lor_08": {
+        "case_count": "1470",
+        "incidence": "445.6",
+        "recovered": "1316"
+      },
+      "lor_09": {
+        "case_count": "493",
+        "incidence": "180.1",
+        "recovered": "465"
+      },
+      "lor_10": {
+        "case_count": "592",
+        "incidence": "219.3",
+        "recovered": "562"
+      },
+      "lor_11": {
+        "case_count": "673",
+        "incidence": "228.8",
+        "recovered": "595"
+      },
+      "lor_12": {
+        "case_count": "887",
+        "incidence": "332.9",
+        "recovered": "826"
+      }
+    },
+    "counts_per_age_group": {
+      "0-4": {
+        "case_count": "326",
+        "incidence": "171.8"
+      },
+      "5-9": {
+        "case_count": "358",
+        "incidence": "208.5"
+      },
+      "10-14": {
+        "case_count": "444",
+        "incidence": "283.7"
+      },
+      "15-19": {
+        "case_count": "525",
+        "incidence": "350.4"
+      },
+      "20-24": {
+        "case_count": "1017",
+        "incidence": "497.8"
+      },
+      "25-29": {
+        "case_count": "1296",
+        "incidence": "451.4"
+      },
+      "30-39": {
+        "case_count": "2398",
+        "incidence": "368.3"
+      },
+      "40-49": {
+        "case_count": "1736",
+        "incidence": "358.5"
+      },
+      "50-59": {
+        "case_count": "1571",
+        "incidence": "289.2"
+      },
+      "60-69": {
+        "case_count": "758",
+        "incidence": "190.6"
+      },
+      "70-79": {
+        "case_count": "563",
+        "incidence": "176.9"
+      },
+      "80-89": {
+        "case_count": "474",
+        "incidence": "257"
+      },
+      "90+": {
+        "case_count": "148",
+        "incidence": "474.9"
+      },
+      "unknown": {
+        "case_count": "8",
+        "incidence": "0"
+      }
+    }
+  },
+  {
     "date": "2020-09-03",
     "source": [
       "https://daten.berlin.de/datensaetze/covid-19-berlin-verteilung-den-bezirken",
