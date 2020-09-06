@@ -39,9 +39,9 @@ source_data_districts[:index].each do |source_observation|
     district_name = source_observation[:bezirk]
     if (lor_code = district_mapping[district_name])
         target_observation = {
-            :case_count => source_observation[:fallzahl] ,
-            :incidence => source_observation[:inzidenz] ,
-            :recovered => source_observation[:genesen]
+            :case_count => source_observation[:fallzahl].to_i  ,
+            :incidence => source_observation[:inzidenz].to_f ,
+            :recovered => source_observation[:genesen].to_i
         }
         new_case_data[:counts_per_district][lor_code.to_s] = target_observation
     end
@@ -53,8 +53,8 @@ source_data_age_groups[:index].each do |source_observation|
     age_group = "unknown" if age_group.eql?("unbekannt")
     unless age_group.eql?("Summe")
         target_observation = {
-            :case_count => source_observation[:fallzahl] ,
-            :incidence => source_observation[:inzidenz] ,
+            :case_count => source_observation[:fallzahl].to_i ,
+            :incidence => source_observation[:inzidenz].to_f ,
         }
         new_case_data[:counts_per_age_group][age_group] = target_observation
     end
