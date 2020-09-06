@@ -8,122 +8,122 @@
     "comment": "The last Corona press release was published on 2020-08-30. After that, the data is extracted from the datasets with daily case numbers as shown in `source`.",
     "counts_per_district": {
       "lor_01": {
-        "case_count": "1812",
-        "incidence": "469.7",
-        "recovered": "1664"
+        "case_count": 1812,
+        "incidence": 469.7,
+        "recovered": 1664
       },
       "lor_02": {
-        "case_count": "1074",
-        "incidence": "369.9",
-        "recovered": "946"
+        "case_count": 1074,
+        "incidence": 369.9,
+        "recovered": 946
       },
       "lor_03": {
-        "case_count": "1040",
-        "incidence": "254.1",
-        "recovered": "921"
+        "case_count": 1040,
+        "incidence": 254.1,
+        "recovered": 921
       },
       "lor_04": {
-        "case_count": "1145",
-        "incidence": "333.2",
-        "recovered": "1052"
+        "case_count": 1145,
+        "incidence": 333.2,
+        "recovered": 1052
       },
       "lor_05": {
-        "case_count": "662",
-        "incidence": "270",
-        "recovered": "595"
+        "case_count": 662,
+        "incidence": 270,
+        "recovered": 595
       },
       "lor_06": {
-        "case_count": "783",
-        "incidence": "252.5",
-        "recovered": "712"
+        "case_count": 783,
+        "incidence": 252.5,
+        "recovered": 712
       },
       "lor_07": {
-        "case_count": "1082",
-        "incidence": "308.3",
-        "recovered": "983"
+        "case_count": 1082,
+        "incidence": 308.3,
+        "recovered": 983
       },
       "lor_08": {
-        "case_count": "1470",
-        "incidence": "445.6",
-        "recovered": "1326"
+        "case_count": 1470,
+        "incidence": 445.6,
+        "recovered": 1326
       },
       "lor_09": {
-        "case_count": "493",
-        "incidence": "180.1",
-        "recovered": "465"
+        "case_count": 493,
+        "incidence": 180.1,
+        "recovered": 465
       },
       "lor_10": {
-        "case_count": "594",
-        "incidence": "220",
-        "recovered": "569"
+        "case_count": 594,
+        "incidence": 220,
+        "recovered": 569
       },
       "lor_11": {
-        "case_count": "674",
-        "incidence": "229.1",
-        "recovered": "599"
+        "case_count": 674,
+        "incidence": 229.1,
+        "recovered": 599
       },
       "lor_12": {
-        "case_count": "897",
-        "incidence": "336.7",
-        "recovered": "830"
+        "case_count": 897,
+        "incidence": 336.7,
+        "recovered": 830
       }
     },
     "counts_per_age_group": {
       "0-4": {
-        "case_count": "328",
-        "incidence": "172.9"
+        "case_count": 328,
+        "incidence": 172.9
       },
       "5-9": {
-        "case_count": "361",
-        "incidence": "210.3"
+        "case_count": 361,
+        "incidence": 210.3
       },
       "10-14": {
-        "case_count": "449",
-        "incidence": "286.9"
+        "case_count": 449,
+        "incidence": 286.9
       },
       "15-19": {
-        "case_count": "534",
-        "incidence": "356.4"
+        "case_count": 534,
+        "incidence": 356.4
       },
       "20-24": {
-        "case_count": "1029",
-        "incidence": "503.7"
+        "case_count": 1029,
+        "incidence": 503.7
       },
       "25-29": {
-        "case_count": "1325",
-        "incidence": "461.5"
+        "case_count": 1325,
+        "incidence": 461.5
       },
       "30-39": {
-        "case_count": "2421",
-        "incidence": "371.8"
+        "case_count": 2421,
+        "incidence": 371.8
       },
       "40-49": {
-        "case_count": "1748",
-        "incidence": "361"
+        "case_count": 1748,
+        "incidence": 361
       },
       "50-59": {
-        "case_count": "1574",
-        "incidence": "289.7"
+        "case_count": 1574,
+        "incidence": 289.7
       },
       "60-69": {
-        "case_count": "761",
-        "incidence": "191.3"
+        "case_count": 761,
+        "incidence": 191.3
       },
       "70-79": {
-        "case_count": "565",
-        "incidence": "177.5"
+        "case_count": 565,
+        "incidence": 177.5
       },
       "80-89": {
-        "case_count": "475",
-        "incidence": "257.5"
+        "case_count": 475,
+        "incidence": 257.5
       },
       "90+": {
-        "case_count": "148",
-        "incidence": "474.9"
+        "case_count": 148,
+        "incidence": 474.9
       },
       "unknown": {
-        "case_count": "8",
-        "incidence": "0"
+        "case_count": 8,
+        "incidence": 0
       }
     }
   },
@@ -263,122 +263,122 @@
     "comment": "The last Corona press release was published on 2020-08-30. After that, the data is extracted from the datasets with daily case numbers as shown in `source`.",
     "counts_per_district": {
       "lor_01": {
-        "case_count": "1812",
-        "incidence": "469.7",
-        "recovered": "1649"
+        "case_count": 1812,
+        "incidence": 469.7,
+        "recovered": 1649
       },
       "lor_02": {
-        "case_count": "1030",
-        "incidence": "354.7",
-        "recovered": "927"
+        "case_count": 1030,
+        "incidence": 354.7,
+        "recovered": 927
       },
       "lor_03": {
-        "case_count": "1032",
-        "incidence": "252.1",
-        "recovered": "912"
+        "case_count": 1032,
+        "incidence": 252.1,
+        "recovered": 912
       },
       "lor_04": {
-        "case_count": "1139",
-        "incidence": "331.5",
-        "recovered": "1042"
+        "case_count": 1139,
+        "incidence": 331.5,
+        "recovered": 1042
       },
       "lor_05": {
-        "case_count": "651",
-        "incidence": "265.5",
-        "recovered": "593"
+        "case_count": 651,
+        "incidence": 265.5,
+        "recovered": 593
       },
       "lor_06": {
-        "case_count": "775",
-        "incidence": "249.9",
-        "recovered": "706"
+        "case_count": 775,
+        "incidence": 249.9,
+        "recovered": 706
       },
       "lor_07": {
-        "case_count": "1068",
-        "incidence": "304.3",
-        "recovered": "973"
+        "case_count": 1068,
+        "incidence": 304.3,
+        "recovered": 973
       },
       "lor_08": {
-        "case_count": "1470",
-        "incidence": "445.6",
-        "recovered": "1316"
+        "case_count": 1470,
+        "incidence": 445.6,
+        "recovered": 1316
       },
       "lor_09": {
-        "case_count": "493",
-        "incidence": "180.1",
-        "recovered": "465"
+        "case_count": 493,
+        "incidence": 180.1,
+        "recovered": 465
       },
       "lor_10": {
-        "case_count": "592",
-        "incidence": "219.3",
-        "recovered": "562"
+        "case_count": 592,
+        "incidence": 219.3,
+        "recovered": 562
       },
       "lor_11": {
-        "case_count": "673",
-        "incidence": "228.8",
-        "recovered": "595"
+        "case_count": 673,
+        "incidence": 228.8,
+        "recovered": 595
       },
       "lor_12": {
-        "case_count": "887",
-        "incidence": "332.9",
-        "recovered": "826"
+        "case_count": 887,
+        "incidence": 332.9,
+        "recovered": 826
       }
     },
     "counts_per_age_group": {
       "0-4": {
-        "case_count": "326",
-        "incidence": "171.8"
+        "case_count": 326,
+        "incidence": 171.8
       },
       "5-9": {
-        "case_count": "358",
-        "incidence": "208.5"
+        "case_count": 358,
+        "incidence": 208.5
       },
       "10-14": {
-        "case_count": "444",
-        "incidence": "283.7"
+        "case_count": 444,
+        "incidence": 283.7
       },
       "15-19": {
-        "case_count": "525",
-        "incidence": "350.4"
+        "case_count": 525,
+        "incidence": 350.4
       },
       "20-24": {
-        "case_count": "1017",
-        "incidence": "497.8"
+        "case_count": 1017,
+        "incidence": 497.8
       },
       "25-29": {
-        "case_count": "1296",
-        "incidence": "451.4"
+        "case_count": 1296,
+        "incidence": 451.4
       },
       "30-39": {
-        "case_count": "2398",
-        "incidence": "368.3"
+        "case_count": 2398,
+        "incidence": 368.3
       },
       "40-49": {
-        "case_count": "1736",
-        "incidence": "358.5"
+        "case_count": 1736,
+        "incidence": 358.5
       },
       "50-59": {
-        "case_count": "1571",
-        "incidence": "289.2"
+        "case_count": 1571,
+        "incidence": 289.2
       },
       "60-69": {
-        "case_count": "758",
-        "incidence": "190.6"
+        "case_count": 758,
+        "incidence": 190.6
       },
       "70-79": {
-        "case_count": "563",
-        "incidence": "176.9"
+        "case_count": 563,
+        "incidence": 176.9
       },
       "80-89": {
-        "case_count": "474",
-        "incidence": "257"
+        "case_count": 474,
+        "incidence": 257
       },
       "90+": {
-        "case_count": "148",
-        "incidence": "474.9"
+        "case_count": 148,
+        "incidence": 474.9
       },
       "unknown": {
-        "case_count": "8",
-        "incidence": "0"
+        "case_count": 8,
+        "incidence": 0
       }
     }
   },
@@ -391,122 +391,122 @@
     "comment": "The last Corona press release was published on 2020-08-30. After that, the data is extracted from the datasets with daily case numbers as shown in `source`.",
     "counts_per_district": {
       "lor_01": {
-        "case_count": "1799",
-        "incidence": "466.4",
-        "recovered": "1644"
+        "case_count": 1799,
+        "incidence": 466.4,
+        "recovered": 1644
       },
       "lor_02": {
-        "case_count": "1018",
-        "incidence": "350.6",
-        "recovered": "921"
+        "case_count": 1018,
+        "incidence": 350.6,
+        "recovered": 921
       },
       "lor_03": {
-        "case_count": "1022",
-        "incidence": "249.7",
-        "recovered": "907"
+        "case_count": 1022,
+        "incidence": 249.7,
+        "recovered": 907
       },
       "lor_04": {
-        "case_count": "1133",
-        "incidence": "329.8",
-        "recovered": "1035"
+        "case_count": 1133,
+        "incidence": 329.8,
+        "recovered": 1035
       },
       "lor_05": {
-        "case_count": "646",
-        "incidence": "263.5",
-        "recovered": "586"
+        "case_count": 646,
+        "incidence": 263.5,
+        "recovered": 586
       },
       "lor_06": {
-        "case_count": "768",
-        "incidence": "247.7",
-        "recovered": "700"
+        "case_count": 768,
+        "incidence": 247.7,
+        "recovered": 700
       },
       "lor_07": {
-        "case_count": "1056",
-        "incidence": "300.9",
-        "recovered": "966"
+        "case_count": 1056,
+        "incidence": 300.9,
+        "recovered": 966
       },
       "lor_08": {
-        "case_count": "1459",
-        "incidence": "442.2",
-        "recovered": "1310"
+        "case_count": 1459,
+        "incidence": 442.2,
+        "recovered": 1310
       },
       "lor_09": {
-        "case_count": "492",
-        "incidence": "179.8",
-        "recovered": "465"
+        "case_count": 492,
+        "incidence": 179.8,
+        "recovered": 465
       },
       "lor_10": {
-        "case_count": "590",
-        "incidence": "218.5",
-        "recovered": "561"
+        "case_count": 590,
+        "incidence": 218.5,
+        "recovered": 561
       },
       "lor_11": {
-        "case_count": "665",
-        "incidence": "226",
-        "recovered": "591"
+        "case_count": 665,
+        "incidence": 226,
+        "recovered": 591
       },
       "lor_12": {
-        "case_count": "880",
-        "incidence": "330.3",
-        "recovered": "821"
+        "case_count": 880,
+        "incidence": 330.3,
+        "recovered": 821
       }
     },
     "counts_per_age_group": {
       "0-4": {
-        "case_count": "326",
-        "incidence": "171.8"
+        "case_count": 326,
+        "incidence": 171.8
       },
       "5-9": {
-        "case_count": "358",
-        "incidence": "208.5"
+        "case_count": 358,
+        "incidence": 208.5
       },
       "10-14": {
-        "case_count": "444",
-        "incidence": "283.7"
+        "case_count": 444,
+        "incidence": 283.7
       },
       "15-19": {
-        "case_count": "516",
-        "incidence": "344.4"
+        "case_count": 516,
+        "incidence": 344.4
       },
       "20-24": {
-        "case_count": "999",
-        "incidence": "489"
+        "case_count": 999,
+        "incidence": 489
       },
       "25-29": {
-        "case_count": "1276",
-        "incidence": "444.4"
+        "case_count": 1276,
+        "incidence": 444.4
       },
       "30-39": {
-        "case_count": "2380",
-        "incidence": "365.5"
+        "case_count": 2380,
+        "incidence": 365.5
       },
       "40-49": {
-        "case_count": "1722",
-        "incidence": "355.6"
+        "case_count": 1722,
+        "incidence": 355.6
       },
       "50-59": {
-        "case_count": "1564",
-        "incidence": "287.9"
+        "case_count": 1564,
+        "incidence": 287.9
       },
       "60-69": {
-        "case_count": "757",
-        "incidence": "190.3"
+        "case_count": 757,
+        "incidence": 190.3
       },
       "70-79": {
-        "case_count": "562",
-        "incidence": "176.6"
+        "case_count": 562,
+        "incidence": 176.6
       },
       "80-89": {
-        "case_count": "473",
-        "incidence": "256.4"
+        "case_count": 473,
+        "incidence": 256.4
       },
       "90+": {
-        "case_count": "148",
-        "incidence": "474.9"
+        "case_count": 148,
+        "incidence": 474.9
       },
       "unknown": {
-        "case_count": "3",
-        "incidence": "0"
+        "case_count": 3,
+        "incidence": 0
       }
     }
   },
@@ -519,122 +519,122 @@
     "comment": "The last Corona press release was published on 2020-08-30. After that, the data is extracted from the datasets with daily case numbers as shown in `source`.",
     "counts_per_district": {
       "lor_01": {
-        "case_count": "1788",
-        "incidence": "463.5",
-        "recovered": "1636"
+        "case_count": 1788,
+        "incidence": 463.5,
+        "recovered": 1636
       },
       "lor_02": {
-        "case_count": "1008",
-        "incidence": "347.1",
-        "recovered": "918"
+        "case_count": 1008,
+        "incidence": 347.1,
+        "recovered": 918
       },
       "lor_03": {
-        "case_count": "1019",
-        "incidence": "248.9",
-        "recovered": "906"
+        "case_count": 1019,
+        "incidence": 248.9,
+        "recovered": 906
       },
       "lor_04": {
-        "case_count": "1117",
-        "incidence": "325.1",
-        "recovered": "1028"
+        "case_count": 1117,
+        "incidence": 325.1,
+        "recovered": 1028
       },
       "lor_05": {
-        "case_count": "634",
-        "incidence": "258.6",
-        "recovered": "580"
+        "case_count": 634,
+        "incidence": 258.6,
+        "recovered": 580
       },
       "lor_06": {
-        "case_count": "762",
-        "incidence": "245.8",
-        "recovered": "696"
+        "case_count": 762,
+        "incidence": 245.8,
+        "recovered": 696
       },
       "lor_07": {
-        "case_count": "1051",
-        "incidence": "299.4",
-        "recovered": "962"
+        "case_count": 1051,
+        "incidence": 299.4,
+        "recovered": 962
       },
       "lor_08": {
-        "case_count": "1446",
-        "incidence": "438.3",
-        "recovered": "1297"
+        "case_count": 1446,
+        "incidence": 438.3,
+        "recovered": 1297
       },
       "lor_09": {
-        "case_count": "489",
-        "incidence": "178.7",
-        "recovered": "461"
+        "case_count": 489,
+        "incidence": 178.7,
+        "recovered": 461
       },
       "lor_10": {
-        "case_count": "587",
-        "incidence": "217.4",
-        "recovered": "558"
+        "case_count": 587,
+        "incidence": 217.4,
+        "recovered": 558
       },
       "lor_11": {
-        "case_count": "656",
-        "incidence": "223",
-        "recovered": "582"
+        "case_count": 656,
+        "incidence": 223,
+        "recovered": 582
       },
       "lor_12": {
-        "case_count": "873",
-        "incidence": "327.7",
-        "recovered": "816"
+        "case_count": 873,
+        "incidence": 327.7,
+        "recovered": 816
       }
     },
     "counts_per_age_group": {
       "0-4": {
-        "case_count": "322",
-        "incidence": "169.7"
+        "case_count": 322,
+        "incidence": 169.7
       },
       "5-9": {
-        "case_count": "354",
-        "incidence": "206.2"
+        "case_count": 354,
+        "incidence": 206.2
       },
       "10-14": {
-        "case_count": "438",
-        "incidence": "279.9"
+        "case_count": 438,
+        "incidence": 279.9
       },
       "15-19": {
-        "case_count": "504",
-        "incidence": "336.4"
+        "case_count": 504,
+        "incidence": 336.4
       },
       "20-24": {
-        "case_count": "977",
-        "incidence": "478.2"
+        "case_count": 977,
+        "incidence": 478.2
       },
       "25-29": {
-        "case_count": "1256",
-        "incidence": "437.4"
+        "case_count": 1256,
+        "incidence": 437.4
       },
       "30-39": {
-        "case_count": "2364",
-        "incidence": "363"
+        "case_count": 2364,
+        "incidence": 363
       },
       "40-49": {
-        "case_count": "1714",
-        "incidence": "354"
+        "case_count": 1714,
+        "incidence": 354
       },
       "50-59": {
-        "case_count": "1558",
-        "incidence": "286.8"
+        "case_count": 1558,
+        "incidence": 286.8
       },
       "60-69": {
-        "case_count": "757",
-        "incidence": "190.3"
+        "case_count": 757,
+        "incidence": 190.3
       },
       "70-79": {
-        "case_count": "561",
-        "incidence": "176.3"
+        "case_count": 561,
+        "incidence": 176.3
       },
       "80-89": {
-        "case_count": "473",
-        "incidence": "256.4"
+        "case_count": 473,
+        "incidence": 256.4
       },
       "90+": {
-        "case_count": "148",
-        "incidence": "474.9"
+        "case_count": 148,
+        "incidence": 474.9
       },
       "unknown": {
-        "case_count": "4",
-        "incidence": "0"
+        "case_count": 4,
+        "incidence": 0
       }
     }
   },
@@ -647,122 +647,122 @@
     "comment": "The last Corona press release was published on 2020-08-30. After that, the data is extracted from the datasets with daily case numbers as shown in `source`.",
     "counts_per_district": {
       "lor_01": {
-        "case_count": "1766",
-        "incidence": "457.8",
-        "recovered": "1624"
+        "case_count": 1766,
+        "incidence": 457.8,
+        "recovered": 1624
       },
       "lor_02": {
-        "case_count": "1005",
-        "incidence": "346.1",
-        "recovered": "915"
+        "case_count": 1005,
+        "incidence": 346.1,
+        "recovered": 915
       },
       "lor_03": {
-        "case_count": "1011",
-        "incidence": "247",
-        "recovered": "901"
+        "case_count": 1011,
+        "incidence": 247,
+        "recovered": 901
       },
       "lor_04": {
-        "case_count": "1108",
-        "incidence": "322.5",
-        "recovered": "1023"
+        "case_count": 1108,
+        "incidence": 322.5,
+        "recovered": 1023
       },
       "lor_05": {
-        "case_count": "632",
-        "incidence": "257.8",
-        "recovered": "576"
+        "case_count": 632,
+        "incidence": 257.8,
+        "recovered": 576
       },
       "lor_06": {
-        "case_count": "753",
-        "incidence": "242.8",
-        "recovered": "692"
+        "case_count": 753,
+        "incidence": 242.8,
+        "recovered": 692
       },
       "lor_07": {
-        "case_count": "1045",
-        "incidence": "297.7",
-        "recovered": "958"
+        "case_count": 1045,
+        "incidence": 297.7,
+        "recovered": 958
       },
       "lor_08": {
-        "case_count": "1436",
-        "incidence": "435.3",
-        "recovered": "1293"
+        "case_count": 1436,
+        "incidence": 435.3,
+        "recovered": 1293
       },
       "lor_09": {
-        "case_count": "486",
-        "incidence": "177.6",
-        "recovered": "460"
+        "case_count": 486,
+        "incidence": 177.6,
+        "recovered": 460
       },
       "lor_10": {
-        "case_count": "585",
-        "incidence": "216.7",
-        "recovered": "557"
+        "case_count": 585,
+        "incidence": 216.7,
+        "recovered": 557
       },
       "lor_11": {
-        "case_count": "654",
-        "incidence": "222.3",
-        "recovered": "577"
+        "case_count": 654,
+        "incidence": 222.3,
+        "recovered": 577
       },
       "lor_12": {
-        "case_count": "865",
-        "incidence": "324.7",
-        "recovered": "811"
+        "case_count": 865,
+        "incidence": 324.7,
+        "recovered": 811
       }
     },
     "counts_per_age_group": {
       "0-4": {
-        "case_count": "319",
-        "incidence": "168.1"
+        "case_count": 319,
+        "incidence": 168.1
       },
       "5-9": {
-        "case_count": "352",
-        "incidence": "205"
+        "case_count": 352,
+        "incidence": 205
       },
       "10-14": {
-        "case_count": "438",
-        "incidence": "279.9"
+        "case_count": 438,
+        "incidence": 279.9
       },
       "15-19": {
-        "case_count": "497",
-        "incidence": "331.7"
+        "case_count": 497,
+        "incidence": 331.7
       },
       "20-24": {
-        "case_count": "969",
-        "incidence": "474.3"
+        "case_count": 969,
+        "incidence": 474.3
       },
       "25-29": {
-        "case_count": "1235",
-        "incidence": "430.1"
+        "case_count": 1235,
+        "incidence": 430.1
       },
       "30-39": {
-        "case_count": "2343",
-        "incidence": "359.8"
+        "case_count": 2343,
+        "incidence": 359.8
       },
       "40-49": {
-        "case_count": "1701",
-        "incidence": "351.3"
+        "case_count": 1701,
+        "incidence": 351.3
       },
       "50-59": {
-        "case_count": "1553",
-        "incidence": "285.9"
+        "case_count": 1553,
+        "incidence": 285.9
       },
       "60-69": {
-        "case_count": "754",
-        "incidence": "189.6"
+        "case_count": 754,
+        "incidence": 189.6
       },
       "70-79": {
-        "case_count": "560",
-        "incidence": "175.9"
+        "case_count": 560,
+        "incidence": 175.9
       },
       "80-89": {
-        "case_count": "473",
-        "incidence": "256.4"
+        "case_count": 473,
+        "incidence": 256.4
       },
       "90+": {
-        "case_count": "148",
-        "incidence": "474.9"
+        "case_count": 148,
+        "incidence": 474.9
       },
       "unknown": {
-        "case_count": "4",
-        "incidence": "0"
+        "case_count": 4,
+        "incidence": 0
       }
     }
   },
@@ -776,122 +776,122 @@
     "comment": "The last Corona press release was published on 2020-08-30. After that, the data is extracted from the datasets with daily case numbers as shown in `source`.",
     "counts_per_district": {
       "lor_01": {
-        "case_count": "1759",
-        "incidence": "456",
-        "recovered": "1610"
+        "case_count": 1759,
+        "incidence": 456,
+        "recovered": 1610
       },
       "lor_02": {
-        "case_count": "987",
-        "incidence": "339.9",
-        "recovered": "902"
+        "case_count": 987,
+        "incidence": 339.9,
+        "recovered": 902
       },
       "lor_03": {
-        "case_count": "992",
-        "incidence": "242.3",
-        "recovered": "898"
+        "case_count": 992,
+        "incidence": 242.3,
+        "recovered": 898
       },
       "lor_04": {
-        "case_count": "1107",
-        "incidence": "322.2",
-        "recovered": "1017"
+        "case_count": 1107,
+        "incidence": 322.2,
+        "recovered": 1017
       },
       "lor_05": {
-        "case_count": "628",
-        "incidence": "256.1",
-        "recovered": "573"
+        "case_count": 628,
+        "incidence": 256.1,
+        "recovered": 573
       },
       "lor_06": {
-        "case_count": "753",
-        "incidence": "242.8",
-        "recovered": "688"
+        "case_count": 753,
+        "incidence": 242.8,
+        "recovered": 688
       },
       "lor_07": {
-        "case_count": "1039",
-        "incidence": "296",
-        "recovered": "951"
+        "case_count": 1039,
+        "incidence": 296,
+        "recovered": 951
       },
       "lor_08": {
-        "case_count": "1410",
-        "incidence": "427.4",
-        "recovered": "1286"
+        "case_count": 1410,
+        "incidence": 427.4,
+        "recovered": 1286
       },
       "lor_09": {
-        "case_count": "486",
-        "incidence": "177.6",
-        "recovered": "457"
+        "case_count": 486,
+        "incidence": 177.6,
+        "recovered": 457
       },
       "lor_10": {
-        "case_count": "585",
-        "incidence": "216.7",
-        "recovered": "551"
+        "case_count": 585,
+        "incidence": 216.7,
+        "recovered": 551
       },
       "lor_11": {
-        "case_count": "654",
-        "incidence": "222.3",
-        "recovered": "576"
+        "case_count": 654,
+        "incidence": 222.3,
+        "recovered": 576
       },
       "lor_12": {
-        "case_count": "865",
-        "incidence": "324.7",
-        "recovered": "803"
+        "case_count": 865,
+        "incidence": 324.7,
+        "recovered": 803
       }
     },
     "counts_per_age_group": {
       "0-4": {
-        "case_count": "317",
-        "incidence": "167.1"
+        "case_count": 317,
+        "incidence": 167.1
       },
       "5-9": {
-        "case_count": "351",
-        "incidence": "204.5"
+        "case_count": 351,
+        "incidence": 204.5
       },
       "10-14": {
-        "case_count": "434",
-        "incidence": "277.3"
+        "case_count": 434,
+        "incidence": 277.3
       },
       "15-19": {
-        "case_count": "494",
-        "incidence": "329.7"
+        "case_count": 494,
+        "incidence": 329.7
       },
       "20-24": {
-        "case_count": "951",
-        "incidence": "465.5"
+        "case_count": 951,
+        "incidence": 465.5
       },
       "25-29": {
-        "case_count": "1221",
-        "incidence": "425.2"
+        "case_count": 1221,
+        "incidence": 425.2
       },
       "30-39": {
-        "case_count": "2321",
-        "incidence": "356.4"
+        "case_count": 2321,
+        "incidence": 356.4
       },
       "40-49": {
-        "case_count": "1696",
-        "incidence": "350.2"
+        "case_count": 1696,
+        "incidence": 350.2
       },
       "50-59": {
-        "case_count": "1548",
-        "incidence": "284.9"
+        "case_count": 1548,
+        "incidence": 284.9
       },
       "60-69": {
-        "case_count": "753",
-        "incidence": "189.3"
+        "case_count": 753,
+        "incidence": 189.3
       },
       "70-79": {
-        "case_count": "557",
-        "incidence": "175"
+        "case_count": 557,
+        "incidence": 175
       },
       "80-89": {
-        "case_count": "473",
-        "incidence": "256.4"
+        "case_count": 473,
+        "incidence": 256.4
       },
       "90+": {
-        "case_count": "148",
-        "incidence": "474.9"
+        "case_count": 148,
+        "incidence": 474.9
       },
       "unknown": {
-        "case_count": "1",
-        "incidence": "0"
+        "case_count": 1,
+        "incidence": 0
       }
     }
   },
