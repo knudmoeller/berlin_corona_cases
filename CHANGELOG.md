@@ -2,6 +2,8 @@
 
 ## Development
 
+- Add a Nokogiri-based (so we're doing Ruby now) scraper to extract the traffic light data from the new corona dashboard. It's not pretty.
+
 ## 0.3.1
 
 - Remove some Scrapy-related make targets.
