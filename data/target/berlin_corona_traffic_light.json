@@ -2,6 +2,25 @@
   {
     "source": "https://www.berlin.de/corona/lagebericht/desktop/corona.html",
     "comment": "The last Corona press release was published on 2020-08-30. After that, the data is extracted from the dashboard web app with daily updated case numbers and indicators. `pr_date` is only used for backwards-compatibility.",
+    "pr_date": "2020-09-13",
+    "indicators": {
+      "basic_reproduction_number": {
+        "color": "green",
+        "value": 1.07
+      },
+      "incidence_new_infections": {
+        "color": "green",
+        "value": 14.1
+      },
+      "icu_occupancy_rate": {
+        "color": "green",
+        "value": 1.1
+      }
+    }
+  },
+  {
+    "source": "https://www.berlin.de/corona/lagebericht/desktop/corona.html",
+    "comment": "The last Corona press release was published on 2020-08-30. After that, the data is extracted from the dashboard web app with daily updated case numbers and indicators. `pr_date` is only used for backwards-compatibility.",
     "pr_date": "2020-09-12",
     "indicators": {
       "basic_reproduction_number": {
