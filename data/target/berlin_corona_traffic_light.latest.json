@@ -7,7 +7,7 @@
       "value": 1.19
     },
     "incidence_new_infections": {
-      "color": "unknown",
+      "color": "yellow",
       "value": 20.6
     },
     "icu_occupancy_rate": {
