@@ -1,14 +1,15 @@
-PER_DISTRICT_API="https://www.berlin.de/lageso/gesundheit/infektionsepidemiologie-infektionsschutz/corona/tabelle-bezirke/index.php/index/all.json?q="
-PER_AGE_GROUP_API="https://www.berlin.de/lageso/gesundheit/infektionsepidemiologie-infektionsschutz/corona/tabelle-altersgruppen/index.php/index/all.json?q="
-
-all: data README.md
+all: clean data README.md
 
 data: case-numbers traffic-light
 
 case-numbers: data/target/berlin_corona_cases.json
 traffic-light: data/target/berlin_corona_traffic_light.latest.json
 
-data/target/berlin_corona_cases.json: data/temp/cases_combined.json | data/target
+data/target/berlin_corona_cases.json: data/temp/berlin_corona_cases.json | data/target
+	@echo "copying data from $< to $@ ..."
+	@cp $< $@
+
+data/target/berlin_corona_traffic_light.json: data/temp/berlin_corona_traffic_light.json | data/target
 	@echo "copying data from $< to $@ ..."
 	@cp $< $@
 
@@ -17,28 +18,13 @@ data/target/berlin_corona_traffic_light.latest.json: data/target/berlin_corona_t
 	@echo "writing to $@ ..."
 	@jq ".[0]" $< > $@
 
-.PHONY: data/temp/berlin_corona_cases.json
-data/temp/berlin_corona_cases.json: | data/temp
-	@echo "copying data/target/berlin_corona_cases.json to $@ ..."
-	@cp data/target/berlin_corona_cases.json $@
+data/temp/berlin_corona_cases.json: parse-dashboard
 
-.PHONY: data/temp/cases_combined.json
-data/temp/cases_combined.json: data/temp/cases_per_district.json data/temp/cases_per_age_group.json data/temp/berlin_corona_cases.json
-	@echo "converting ($^) to target format ..."
-	@echo "writing to $@ ..."
-	@ruby bin/json2json.rb $^ > $@
+data/temp/berlin_corona_traffic_light.json: parse-dashboard
 
-.PHONY: data/temp/cases_per_district.json
-data/temp/cases_per_district.json: | data/temp
-	@echo "downloading corona case numbers per district from ${PER_DISTRICT_API} ..."
-	@echo "writing to $@ ..."
-	@curl -s -o $@ ${PER_DISTRICT_API}
-
-.PHONY: data/temp/cases_per_age_group.json
-data/temp/cases_per_age_group.json: | data/temp
-	@echo "downloading corona case numbers per district from ${PER_AGE_GROUP_API} ..."
-	@echo "writing to $@ ..."
-	@curl -s -o $@ ${PER_AGE_GROUP_API}
+parse-dashboard: | data/temp
+	@echo "running corona dashboard parser ..."
+	@ruby bin/scrape_dashboard.rb data/target/berlin_corona_cases.json data/target/berlin_corona_traffic_light.json data/temp
 
 .PHONY: README.md
 README.md: data/temp/date.txt
@@ -52,15 +38,9 @@ data/temp/date.txt: | data/temp
 	@echo "write current date ..."
 	@date "+Last changed: %Y-%m-%d" > $@
 
-clean: clean-temp clean-target
-
-clean-temp:
+clean: 
 	@echo "deleting temp folder ..."
 	@rm -rf data/temp
-
-clean-target:
-	@echo "deleting target folder ..."
-	@rm -rf data/target
 
 data/temp:
 	@echo "creating temp directory ..."
