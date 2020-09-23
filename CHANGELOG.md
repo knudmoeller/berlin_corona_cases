@@ -2,7 +2,7 @@
 
 ## Development
 
-- Add a Nokogiri-based (so we're doing Ruby now) scraper to extract the traffic light data from the new corona dashboard. It's not pretty.
+- Add a Nokogiri-based (so we're doing Ruby now) scraper to extract both the case numbers and the traffic light data from the new corona dashboard. It's not pretty.
 
 ## 0.3.1
 
