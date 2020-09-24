@@ -276,7 +276,7 @@ Also, I just wanted to try it out.
 For simply scraping the same dashboard page every day, Scrapy seemed overkill, and I have more experience using Ruby and Nokogiri.
 It was just easier for me personally.
 
-If you're looking for the old Scrapy-based scraped, you can still find it in [release 0.2.4](https://github.com/knudmoeller/berlin_corona_cases/tree/0.2.4 "Release 0.2.4 of the 'Coronavirus Cases Scraper for Berlin'").
+If you're looking for the old Scrapy-based scraper, you can still find it in [release 0.2.4](https://github.com/knudmoeller/berlin_corona_cases/tree/0.2.4 "Release 0.2.4 of the 'Coronavirus Cases Scraper for Berlin'").
 
 ## Logo
 
