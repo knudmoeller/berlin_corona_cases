@@ -2,7 +2,12 @@
 
 ## Development
 
-- Add a Nokogiri-based (so we're doing Ruby now) scraper to extract the traffic light data from the new corona dashboard. It's not pretty.
+## 0.3.2
+
+- Add a Nokogiri-based (we're doing Ruby now, [because reasons](https://github.com/knudmoeller/berlin_corona_cases#what-happened-to-the-old-scraper)) scraper to extract both the case numbers and the traffic light data from the new corona dashboard.
+- Update Makefile.
+- Remove all Scrapy-related code.
+- Update README to reflect all this.
 
 ## 0.3.1
 
