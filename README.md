@@ -145,9 +145,9 @@ There is a special `unknown` age group for which the `incidence` is always `n.a.
 
 #### Manually Extracted Data
 
-Some of the earlier press releases had a slightly different format, or were only available as screen shots (true story), so the scraper did not work for them.
+Some of the earlier press releases had a slightly different format, or were only available as screen shots (true story), so the [old press release scraper](https://github.com/knudmoeller/berlin_corona_cases/tree/0.2.4 "Release 0.2.4 of the 'Coronavirus Cases Scraper for Berlin'") did not work for them.
 Rather than writing special code for extracting these one- or two-off cases, I manually extracted them and put them in [data/manual/manually_extracted.json](data/manual/manually_extracted.json).
-When creating the complete timeline, this manually extracted data is merged with the scraped data.
+When creating the complete timeline, this manually extracted data was then merged with the newly scraped data.
 
 ### Corona Traffic Light Indicators
 
@@ -201,7 +201,7 @@ The structure is as follows:
 ```
 
 The structure of the data is a JSON array with objects for day.
-Each say specifies the `source` (where was the data scraped from – this used to be a particular press release, now it is always the dashboard), the `pr_date` (date when this particular set of indicators was announced – this used to be the date of the press release) and an `indicators` object.
+Each day specifies the `source` (where was the data scraped from – this used to be a particular press release, now it is always the dashboard), the `pr_date` (date when this particular set of indicators was announced – this used to be the date of the press release) and an `indicators` object.
 `indicators` in turn contains the three indicators `basic_reproduction_number` (basic reproduction number R), `incidence_new_infections` (incidence of new infections per 100,000 inhabitants per week) and `icu_occupancy_rate` (the ICU occupancy rate in %: which percentage of the available ICU capacity is currently being used).
 Each indicator has a numeric `value` and a traffic light `color`-code (one of [`green`, `yellow`, `red`]).
 For the exact meaning of color codes please refer to the press releases.
