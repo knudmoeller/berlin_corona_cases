@@ -2,6 +2,10 @@
 
 ## Development
 
+## 0.3.3
+
+- Add the color code for a red traffic light indicator. Had to wait for an indicator to actually turn red to see what the code is. Unfortunately, this happened today (2020-09-30).
+
 ## 0.3.2
 
 - Add a Nokogiri-based (we're doing Ruby now, [because reasons](https://github.com/knudmoeller/berlin_corona_cases#what-happened-to-the-old-scraper)) scraper to extract both the case numbers and the traffic light data from the new corona dashboard.
