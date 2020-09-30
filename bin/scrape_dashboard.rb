@@ -7,7 +7,8 @@ DASHBOARD_URI = "https://www.berlin.de/corona/lagebericht/desktop/corona.html"
 
 COLOR_MAPPING = {
     "#66C166" => "green" ,
-    "#F6A942" => "yellow"
+    "#F6A942" => "yellow" ,
+    "#F35C58" => "red"
 }
 
 DISTRICT_MAPPING = {
