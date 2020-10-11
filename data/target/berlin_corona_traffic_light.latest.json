@@ -1,14 +1,14 @@
 {
   "source": "https://www.berlin.de/corona/lagebericht/desktop/corona.html",
-  "pr_date": "2020-10-10",
+  "pr_date": "2020-10-11",
   "indicators": {
     "basic_reproduction_number": {
       "color": "green",
-      "value": 1.23
+      "value": 1.29
     },
     "incidence_new_infections": {
       "color": "red",
-      "value": 58.2
+      "value": 61.3
     },
     "icu_occupancy_rate": {
       "color": "green",
