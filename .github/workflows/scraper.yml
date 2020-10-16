@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - feature/gh-actions
+  schedule:
+    - cron: '6 14,15,16,17,18 * * *'
 
 jobs:
 
@@ -35,5 +37,6 @@ jobs:
           git config user.name "Automated"
           git config user.email "actions@users.noreply.github.com"
           timestamp=$(date "+%Y-%m-%d")
+          # the commands after the || only run if git diff detects any changes
           git diff --quiet || make README.md && git add -A && git commit -m "add ${timestamp}"
           git push
