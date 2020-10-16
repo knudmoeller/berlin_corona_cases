@@ -27,4 +27,13 @@ jobs:
       - name: Run Scraper
         shell: bash
         run: |
-          make all
+          make data
+
+      - name: Commit and push if it changed
+        shell: bash
+        run: |-
+          git config user.name "Automated"
+          git config user.email "actions@users.noreply.github.com"
+          timestamp=$(date "+%Y-%m-%d")
+          git diff --quiet || make README.md && git add -A && git commit -m "add ${timestamp}"
+          git push
