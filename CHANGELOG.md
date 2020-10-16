@@ -3,7 +3,6 @@
 ## Development
 
 - Have the scraper run autoimatically every day with GitHub Actions, as recommended by @jaimergp.
-- test
 
 ## 0.3.3
 
