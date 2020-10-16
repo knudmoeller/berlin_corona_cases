@@ -22,7 +22,7 @@ jobs:
         run: |
           sudo gem install bundler
           sudo gem update bundler
-          sudo bundle install
+          bundle install
 
       - name: Run Scraper
         shell: bash
