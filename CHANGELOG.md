@@ -2,7 +2,7 @@
 
 ## Development
 
-- Have the scraper run autoimatically every day with GitHub Actions, as recommended by @jaimergp.
+- Have the scraper run automatically every day with GitHub Actions, [as recommended](https://github.com/knudmoeller/berlin_corona_cases/issues/1#issuecomment-698192160) by [@jaimergp](https://github.com/jaimergp). There is a really cool little blog post on Git scraping by [@simonw](https://github.com/simonw) at https://simonwillison.net/2020/Oct/9/git-scraping/.
 
 ## 0.3.3
 
