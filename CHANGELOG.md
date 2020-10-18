@@ -9,6 +9,7 @@ _(2020-10-18)_
 - The scraper now runs automatically every day with GitHub Actions, [as recommended](https://github.com/knudmoeller/berlin_corona_cases/issues/1#issuecomment-698192160) by [@jaimergp](https://github.com/jaimergp).
 There is a really cool little blog post on Git scraping by [@simonw](https://github.com/simonw) at https://simonwillison.net/2020/Oct/9/git-scraping/.
 - Add [documentation for the GitHub Actions workflow](https://github.com/knudmoeller/berlin_corona_cases#running-automatically-with-github-actions) to the README.
+- Update changelog with dates for each release.
 
 ## 0.3.3
 
