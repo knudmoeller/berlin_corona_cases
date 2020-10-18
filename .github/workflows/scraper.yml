@@ -38,5 +38,5 @@ jobs:
           git config user.email "actions@users.noreply.github.com"
           timestamp=$(date "+%Y-%m-%d")
           # the commands after the || only run if git diff detects any changes
-          git diff || make README.md && git add -A && git commit -m "add ${timestamp}"
+          git diff || make README.md && git add -A && git commit -m "add ${timestamp}" && true
           git push
