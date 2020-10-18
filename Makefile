@@ -7,11 +7,11 @@ traffic-light: data/target/berlin_corona_traffic_light.latest.json
 
 data/target/berlin_corona_cases.json: data/temp/berlin_corona_cases.json | data/target
 	@echo "copying data from $< to $@ ..."
-	@cp $< $@
+	@cp $< $@ || true
 
 data/target/berlin_corona_traffic_light.json: data/temp/berlin_corona_traffic_light.json | data/target
 	@echo "copying data from $< to $@ ..."
-	@cp $< $@
+	@cp $< $@ || true
 
 data/target/berlin_corona_traffic_light.latest.json: data/target/berlin_corona_traffic_light.json
 	@echo "extracting latest set of traffic light indicators from $< ..."
