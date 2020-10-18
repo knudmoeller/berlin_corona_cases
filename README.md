@@ -208,15 +208,35 @@ For the exact meaning of color codes please refer to the press releases.
 
 ## Running the Scraper
 
-I will try to update the data regularly, but if you want to run the scraper yourself, you can. Here is how:
+### Running Automatically with GitHub Actions
 
-### Requirements
+The scraper runs automatically every day, several times in the afternoon (around the time when the dashboard is usually updated).
+To do this, I have defined a workflow in [.github/workflows/scraper.yml](.github/workflows/scraper.yml) for [GitHub Actions](https://github.com/features/actions), GitHub's continuous integration framework.
+The workflow 
 
-* Ruby 2.7.1 (might work with other versions, I haven't tried)
+* sets up a virtual machine,
+* checks out the repository,
+* runs the scraper and
+* commits and pushes the updated data if there are changes.
+
+Setting up the workflow was surprisingly easy, so I'd definitely recommend this if you want to regularly run a scraper and don't want to push the button yourself every day!
+
+[@jaimergp](https://github.com/jaimergp) and later also [@graste](https://github.com/graste) recommended doing this, and I'm very grateful for the inspiration!
+I had no idea gh-actions included a cron-based trigger that makes this possible ...
+
+[@simonw](https://github.com/simonw)'s blog post at https://simonwillison.net/2020/Oct/9/git-scraping/ is a very good starting point if you want to learn how to do [git-scraping](https://github.com/topics/git-scraping).
+
+### Running Manually
+
+If you want to run the scraper yourself manually (maybe you want to improve it), you can. Here is how:
+
+#### Requirements
+
+* Ruby 2.7.1 (most likely works with other versions too, I haven't tried)
 * the [Nokogiri](https://nokogiri.org) gem
 * the [jq](https://stedolan.github.io/jq/) JSON processor (jq is not a hard requirement anymore – it's only used to extract the current day for [data/target/berlin_corona_traffic_light.latest.json](data/target/berlin_corona_traffic_light.latest.json)).
 
-### Installation
+#### Installation
 
 - First, make sure you have Ruby installed.
 - If you have the [Bundler](https://bundler.io) tool, you can install the gem (Ruby library) dependencies like this:
@@ -226,7 +246,7 @@ $ bundler install
 # ... output from bundler ...
 ```
 
-- If you don't have bundler, just install the dependencies individually with `gem`.
+- If you don't have bundler (you should get it), just install the dependencies individually with `gem`.
 Since there is currently really only one non-standard gem dependency, this is no less convenient:
 
 ```bash
@@ -236,7 +256,7 @@ $ gem install nokogiri
 
 - Finally, download this repository to a place of your choosing, or use `git clone`.
 
-### Make Targets
+#### Make Targets
 
 There is a [Makefile](Makefile) that orchestrates the scraping.
 The targets should be easy to understand (each one has an `echo` statement that verbosely says what it does).
