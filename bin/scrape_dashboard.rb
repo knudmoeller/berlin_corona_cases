@@ -69,7 +69,9 @@ def extract_age_group_data(doc)
 end
 
 def german_to_international_float(text)
-    text.strip().gsub(".","").gsub(",",".").to_f
+    value = "unknown"
+    value = text.strip().gsub(".","").gsub(",",".").to_f if text
+    value
 end
 
 # scraping hell: I need to look at the style attribute of the element to 
