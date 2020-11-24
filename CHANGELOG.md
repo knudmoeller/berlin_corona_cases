@@ -2,6 +2,12 @@
 
 ## Development
 
+## 0.4.2
+
+_(2020-11-24)_
+
+- Another bugfix to adjust to differences in the markup (space as thousands separator, changed column name for incidence column).
+
 ## 0.4.1
 
 _(2020-11-24)_

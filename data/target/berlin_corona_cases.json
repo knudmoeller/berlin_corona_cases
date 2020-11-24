@@ -4,118 +4,118 @@
     "source": "https://www.berlin.de/corona/lagebericht/desktop/corona.html",
     "counts_per_district": {
       "lor_01": {
-        "case_count": 8,
-        "indicence": "unknown",
-        "recovered": 4
+        "case_count": 8561,
+        "indicence": 2219.3,
+        "recovered": 4939
       },
       "lor_02": {
-        "case_count": 5,
-        "indicence": "unknown",
-        "recovered": 4
+        "case_count": 5948,
+        "indicence": 2048.3,
+        "recovered": 4239
       },
       "lor_03": {
-        "case_count": 4,
-        "indicence": "unknown",
-        "recovered": 3
+        "case_count": 4560,
+        "indicence": 1114.0,
+        "recovered": 3267
       },
       "lor_04": {
-        "case_count": 5,
-        "indicence": "unknown",
-        "recovered": 3
+        "case_count": 5207,
+        "indicence": 1515.5,
+        "recovered": 3555
       },
       "lor_05": {
-        "case_count": 3,
-        "indicence": "unknown",
-        "recovered": 2
+        "case_count": 3753,
+        "indicence": 1530.6,
+        "recovered": 2679
       },
       "lor_06": {
-        "case_count": 3,
-        "indicence": "unknown",
-        "recovered": 1
+        "case_count": 3880,
+        "indicence": 1251.3,
+        "recovered": 1855
       },
       "lor_07": {
-        "case_count": 6,
-        "indicence": "unknown",
-        "recovered": 3
+        "case_count": 6411,
+        "indicence": 1826.6,
+        "recovered": 3240
       },
       "lor_08": {
-        "case_count": 8,
-        "indicence": "unknown",
-        "recovered": 5
+        "case_count": 8251,
+        "indicence": 2500.9,
+        "recovered": 5901
       },
       "lor_09": {
-        "case_count": 2,
-        "indicence": "unknown",
-        "recovered": 1
+        "case_count": 2399,
+        "indicence": 876.5,
+        "recovered": 1111
       },
       "lor_10": {
-        "case_count": 2,
-        "indicence": "unknown",
-        "recovered": 1
+        "case_count": 2500,
+        "indicence": 926.0,
+        "recovered": 1805
       },
       "lor_11": {
-        "case_count": 3,
-        "indicence": "unknown",
-        "recovered": 1
+        "case_count": 3009,
+        "indicence": 1022.8,
+        "recovered": 1921
       },
       "lor_12": {
-        "case_count": 4,
-        "indicence": "unknown",
-        "recovered": 2
+        "case_count": 4445,
+        "indicence": 1668.5,
+        "recovered": 2585
       }
     },
     "counts_per_age_group": {
       "0-4": {
-        "case_count": 1,
-        "incidence": "unknown"
+        "case_count": 1084,
+        "incidence": 571.3
       },
       "5-9": {
-        "case_count": 1,
-        "incidence": "unknown"
+        "case_count": 1482,
+        "incidence": 863.2
       },
       "10-14": {
-        "case_count": 2,
-        "incidence": "unknown"
+        "case_count": 2446,
+        "incidence": 1562.9
       },
       "15-19": {
-        "case_count": 3,
-        "incidence": "unknown"
+        "case_count": 3551,
+        "incidence": 2370.3
       },
       "20-24": {
-        "case_count": 5,
-        "incidence": "unknown"
+        "case_count": 5603,
+        "incidence": 2742.7
       },
       "25-29": {
-        "case_count": 6,
-        "incidence": "unknown"
+        "case_count": 6649,
+        "incidence": 2315.6
       },
       "30-39": {
-        "case_count": 11,
-        "incidence": "unknown"
+        "case_count": 11865,
+        "incidence": 1822.1
       },
       "40-49": {
-        "case_count": 8,
-        "incidence": "unknown"
+        "case_count": 8521,
+        "incidence": 1759.6
       },
       "50-59": {
-        "case_count": 8,
-        "incidence": "unknown"
+        "case_count": 8002,
+        "incidence": 1472.9
       },
       "60-69": {
-        "case_count": 3,
-        "incidence": "unknown"
+        "case_count": 3912,
+        "incidence": 983.6
       },
       "70-79": {
-        "case_count": 2,
-        "incidence": "unknown"
+        "case_count": 2527,
+        "incidence": 793.9
       },
       "80-89": {
-        "case_count": 2,
-        "incidence": "unknown"
+        "case_count": 2063,
+        "incidence": 1118.4
       },
       "90+": {
         "case_count": 644,
-        "incidence": "unknown"
+        "incidence": 2066.5
       },
       "unknown": {
         "case_count": 575,

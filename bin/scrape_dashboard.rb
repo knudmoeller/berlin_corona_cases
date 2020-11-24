@@ -39,9 +39,9 @@ def extract_district_data(doc)
     data.each do |row|
         if (code = DISTRICT_MAPPING[row['Bezirk']])
             counts_per_district[code] = {
-                :case_count => row['Fallzahl'].to_i ,
-                :indicence => german_to_international_float(row['Inzidenz*']) ,
-                :recovered => row['Genesen**'].to_i
+                :case_count => german_to_international_float(row['Fallzahl']).to_i ,
+                :indicence => german_to_international_float(row['Fallzahl pro 100.000 Einwohner*']) ,
+                :recovered => german_to_international_float(row['Genesen**']).to_i
             }
         end
     end
@@ -56,12 +56,12 @@ def extract_age_group_data(doc)
         age_group = row['Altersgruppe']
         unless age_group.eql?("unbekannt")
             counts_per_age_group[age_group] = {
-                :case_count => row['Fallzahl'].to_i ,
-                :incidence => german_to_international_float(row['Inzidenz*'])
+                :case_count => german_to_international_float(row['Fallzahl']).to_i ,
+                :incidence => german_to_international_float(row['Fallzahl pro 100.000 Einwohner*'])
             }
         else
             counts_per_age_group['unknown'] = {
-                :case_count => row['Fallzahl'].to_i ,
+                :case_count => german_to_international_float(row['Fallzahl']).to_i ,
                 :indidence => "n.a."
             }
         end
@@ -71,7 +71,7 @@ end
 
 def german_to_international_float(text)
     value = "unknown"
-    value = text.strip().gsub(".","").gsub(",",".").to_f if text
+    value = text.strip().gsub(/\s+/,"").gsub(".","").gsub(",",".").to_f if text
     value
 end
 
