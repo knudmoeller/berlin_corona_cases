@@ -2,6 +2,12 @@
 
 ## Development
 
+## 0.4.1
+
+_(2020-11-24)_
+
+- Small bugfix (add test for `nil`  to `german_to_international_float()`) to prevent crashes due to missing values.
+
 ## 0.4.0
 
 _(2020-10-18)_
