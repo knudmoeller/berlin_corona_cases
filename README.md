@@ -9,6 +9,7 @@
 
 This is a scraper for the [Corona/COVID-19 dashboard for Berlin](https://www.berlin.de/corona/lagebericht/desktop/corona.html), as issued by the [Senatsverwaltung für Gesundheit, Pflege und Gleichstellung](https://www.berlin.de/sen/gpg/) (Senate Department for Health, Care and Equality) and the [Landesamt für Gesundheit und Soziales](https://www.berlin.de/lageso/) (Regional Office for Health and Social Affairs).
 The dashboard includes daily case numbers by district and age groups, as well as the "Corona traffic light"-indicators (basic reproduction number R, incidence of new infections per week, ICU occupancy rate).
+Starting with November 11, 2020, the change in the 7-day incidence is also included in the traffic light indicators.
 As of August 31, 2020, the dashboard [replaces the previously used daily press releases](https://www.berlin.de/sen/gpg/service/presse/2020/pressemitteilung.983232.php "SenGPG press release announcing the new Corona/COVID-19 dashboard from 2020-08-31") containing the same data.
 There were two separate press releases each day, one with the case numbers (see [here](https://www.berlin.de/sen/gpg/service/presse/2020/pressemitteilung.982684.php "Last SenGPG press release with Corona/COVID-19 case numbers for Berlin from 2020-08-30") for the last one) and one with the traffic light indicators (see [here](https://www.berlin.de/sen/gpg/service/presse/2020/pressemitteilung.982682.php "Last SenGPG press release with Corona/COVID-19 traffic light indicators for Berlin from 2020-08-30") for the last one of those).
 
@@ -161,19 +162,23 @@ The structure is as follows:
 [
   {
     "source": "https://www.berlin.de/corona/lagebericht/desktop/corona.html",
-    "pr_date": "2020-09-23",
+    "pr_date": "2020-12-06",
     "indicators": {
       "basic_reproduction_number": {
         "color": "green",
-        "value": 0.94
+        "value": 1.05
       },
       "incidence_new_infections": {
-        "color": "yellow",
-        "value": 26.1
+        "color": "red",
+        "value": 182.9
       },
       "icu_occupancy_rate": {
+        "color": "red",
+        "value": 26.6
+      },
+      "change_incidence": {
         "color": "green",
-        "value": 1.4
+        "value": -13
       }
     }
   },
@@ -203,8 +208,11 @@ The structure is as follows:
 The structure of the data is a JSON array with objects for day.
 Each day specifies the `source` (where was the data scraped from – this used to be a particular press release, now it is always the dashboard), the `pr_date` (date when this particular set of indicators was announced – this used to be the date of the press release) and an `indicators` object.
 `indicators` in turn contains the three indicators `basic_reproduction_number` (basic reproduction number R), `incidence_new_infections` (incidence of new infections per 100,000 inhabitants per week) and `icu_occupancy_rate` (the ICU occupancy rate in %: which percentage of the available ICU capacity is currently being used).
+On 2020-11-11 a fourth indicator was introduced: the change in 7-day incidence (_"Veränderung der 7-Tage-Inzidenz"_).
+This indicator is included as `change_incidence`.
+
 Each indicator has a numeric `value` and a traffic light `color`-code (one of [`green`, `yellow`, `red`]).
-For the exact meaning of color codes please refer to the press releases.
+For the exact meaning of color codes please refer to the corona dashboard.
 
 ## Running the Scraper
 

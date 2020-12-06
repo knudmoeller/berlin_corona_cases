@@ -13,6 +13,10 @@
     "icu_occupancy_rate": {
       "color": "red",
       "value": 26.6
+    },
+    "change_incidence": {
+      "color": "green",
+      "value": -13
     }
   }
 }

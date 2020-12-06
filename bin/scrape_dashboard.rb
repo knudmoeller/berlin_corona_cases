@@ -153,10 +153,14 @@ if ARGV.count == 3
                 :incidence_new_infections => {
                     :color => extract_color(doc.at_css("#neuinfektionen")['style']) ,
                     :value => german_to_international_float(doc.css("#neuinfektionen .inner .value").text())
-                    } ,    
+                } ,    
                 :icu_occupancy_rate => {
                     :color => extract_color(doc.at_css("#its")['style']) ,
                     :value => german_to_international_float(doc.css("#its .inner .value").text().gsub("%",""))
+                } ,
+                :change_incidence => {
+                    :color => extract_color(doc.at_css("#rel_7TI")['style']) ,
+                    :value => german_to_international_float(doc.css("#rel_7TI .inner .value").text().gsub("%","")).to_i                     
                 }
             }
         }

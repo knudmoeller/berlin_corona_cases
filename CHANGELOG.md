@@ -2,6 +2,14 @@
 
 ## Development
 
+## 0.4.3
+
+_(2020-12-06)_
+
+- Extract change in 7-day incidence as an additional traffic light indicator.
+The change in the 7-day incidence (_"Veränderung der 
+7-Tage-Inzidenz"_) was introduced as an additional metric to the dashboard on 2020-11-11.
+
 ## 0.4.2
 
 _(2020-11-24)_
