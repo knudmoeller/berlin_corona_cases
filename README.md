@@ -318,4 +318,4 @@ If you find bugs in the code or in the data, please let me know by opening an is
 
 Repository: [https://github.com/knudmoeller/berlin_corona_cases](https://github.com/knudmoeller/berlin_corona_cases)
 
-Last changed: 2020-12-05
+Last changed: 2020-12-06
