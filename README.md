@@ -209,7 +209,7 @@ The structure of the data is a JSON array with objects for day.
 Each day specifies the `source` (where was the data scraped from – this used to be a particular press release, now it is always the dashboard), the `pr_date` (date when this particular set of indicators was announced – this used to be the date of the press release) and an `indicators` object.
 `indicators` in turn contains the three indicators `basic_reproduction_number` (basic reproduction number R), `incidence_new_infections` (incidence of new infections per 100,000 inhabitants per week) and `icu_occupancy_rate` (the ICU occupancy rate in %: which percentage of the available ICU capacity is currently being used).
 On 2020-11-11 a fourth indicator was introduced: the change in 7-day incidence (_"Veränderung der 7-Tage-Inzidenz"_).
-This indicator is included as `change_incidence`.
+This indicator is included as `change_incidence` (the number shows the change in percent).
 
 Each indicator has a numeric `value` and a traffic light `color`-code (one of [`green`, `yellow`, `red`]).
 For the exact meaning of color codes please refer to the corona dashboard.
