@@ -20,7 +20,7 @@ jobs:
       - name: Install dependencies
         shell: bash
         run: |
-          sudo gem install bundler
+          sudo gem install bundler -v "$(grep -A 1 "BUNDLED WITH" Gemfile.lock | tail -n 1)"
           sudo gem update bundler
           bundle install
 
