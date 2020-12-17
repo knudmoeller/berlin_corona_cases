@@ -2,6 +2,13 @@
 
 ## Development
 
+## 0.4.4
+
+_(2020-12-17)_
+
+- Check out a specific version of bundler to prevent the _"can't find gem bundler (>= 0.a) with executable bundle"_ error.
+- Extend the cron by one hour to catch unusually late publications.
+
 ## 0.4.3
 
 _(2020-12-06)_
