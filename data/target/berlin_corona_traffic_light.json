@@ -1,6 +1,28 @@
 [
   {
     "source": "https://www.berlin.de/corona/lagebericht/desktop/corona.html",
+    "pr_date": "2021-01-02",
+    "indicators": {
+      "basic_reproduction_number": {
+        "color": "green",
+        "value": 0.73
+      },
+      "incidence_new_infections": {
+        "color": "red",
+        "value": 130.7
+      },
+      "icu_occupancy_rate": {
+        "color": "red",
+        "value": 33.8
+      },
+      "change_incidence": {
+        "color": "green",
+        "value": -21
+      }
+    }
+  },
+  {
+    "source": "https://www.berlin.de/corona/lagebericht/desktop/corona.html",
     "pr_date": "2021-01-01",
     "indicators": {
       "basic_reproduction_number": {
