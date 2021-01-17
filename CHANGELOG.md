@@ -2,6 +2,11 @@
 
 ## Development
 
+## 0.4.5
+
+_(2021-01-17)_
+
+- Update Nokogiri via dependabot.
 ## 0.4.4
 
 _(2020-12-17)_
