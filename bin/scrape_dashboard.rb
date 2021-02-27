@@ -166,7 +166,15 @@ if ARGV.count == 4
                     :color => extract_color(doc.at_css("#rel_7TI")['style']) ,
                     :value => german_to_international_float(doc.css("#rel_7TI .inner .value").text().gsub("%","")).to_i                     
                 }
-            }
+            } ,
+            :vaccination => {
+               :total_administered => 
+                    doc.css("#box-Impfdosen .inner .value").text().gsub(" ","").to_i ,
+               :percentage_one_dose => 
+                    german_to_international_float(doc.css("#box-erstimpfung .inner .value").text().gsub("%","")) ,
+                :percentate_two_doses => 
+                    german_to_international_float(doc.css("#box-zweitimpfung .inner .value").text().gsub("%","")) 
+            }   
         }
         
         current_traffic_light_data.unshift(new_traffic_light)

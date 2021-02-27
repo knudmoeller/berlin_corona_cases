@@ -1,6 +1,141 @@
 [
   {
     "source": "https://www.berlin.de/corona/lagebericht/desktop/corona.html",
+    "pr_date": "2021-02-26",
+    "indicators": {
+      "basic_reproduction_number": {
+        "color": "green",
+        "value": 0.92
+      },
+      "incidence_new_infections": {
+        "color": "red",
+        "value": 63.8
+      },
+      "icu_occupancy_rate": {
+        "color": "yellow",
+        "value": 18.1
+      },
+      "change_incidence": {
+        "color": "yellow",
+        "value": 16
+      }
+    },
+    "vaccination": {
+      "total_administered": 278242,
+      "percentage_one_dose": 4.46,
+      "percentate_two_doses": 2.92
+    }
+  },
+  {
+    "source": "https://www.berlin.de/corona/lagebericht/desktop/corona.html",
+    "pr_date": "2021-02-25",
+    "indicators": {
+      "basic_reproduction_number": {
+        "color": "green",
+        "value": 0.81
+      },
+      "incidence_new_infections": {
+        "color": "red",
+        "value": 61.6
+      },
+      "icu_occupancy_rate": {
+        "color": "yellow",
+        "value": 18.4
+      },
+      "change_incidence": {
+        "color": "yellow",
+        "value": 13
+      }
+    },
+    "vaccination": {
+      "total_administered": 266530,
+      "percentage_one_dose": 4.22,
+      "percentate_two_doses": 2.85
+    }
+  },
+  {
+    "source": "https://www.berlin.de/corona/lagebericht/desktop/corona.html",
+    "pr_date": "2021-02-24",
+    "indicators": {
+      "basic_reproduction_number": {
+        "color": "green",
+        "value": 0.88
+      },
+      "incidence_new_infections": {
+        "color": "red",
+        "value": 60.4
+      },
+      "icu_occupancy_rate": {
+        "color": "yellow",
+        "value": 19.1
+      },
+      "change_incidence": {
+        "color": "green",
+        "value": 12
+      }
+    },
+    "vaccination": {
+      "total_administered": 260867,
+      "percentage_one_dose": 4.14,
+      "percentate_two_doses": 2.78
+    }
+  },
+  {
+    "source": "https://www.berlin.de/corona/lagebericht/desktop/corona.html",
+    "pr_date": "2021-02-23",
+    "indicators": {
+      "basic_reproduction_number": {
+        "color": "green",
+        "value": 1.04
+      },
+      "incidence_new_infections": {
+        "color": "red",
+        "value": 57.9
+      },
+      "icu_occupancy_rate": {
+        "color": "yellow",
+        "value": 19.4
+      },
+      "change_incidence": {
+        "color": "green",
+        "value": 3
+      }
+    },
+    "vaccination": {
+      "total_administered": 255667,
+      "percentage_one_dose": 4.08,
+      "percentate_two_doses": 2.7
+    }
+  },
+  {
+    "source": "https://www.berlin.de/corona/lagebericht/desktop/corona.html",
+    "pr_date": "2021-02-22",
+    "indicators": {
+      "basic_reproduction_number": {
+        "color": "green",
+        "value": 1.24
+      },
+      "incidence_new_infections": {
+        "color": "red",
+        "value": 57.2
+      },
+      "icu_occupancy_rate": {
+        "color": "yellow",
+        "value": 19.5
+      },
+      "change_incidence": {
+        "color": "green",
+        "value": 0
+      }
+    },
+    "vaccination": {
+      "total_administered": 245962,
+      "percentage_one_dose": 3.96,
+      "percentate_two_doses": 2.56
+    }
+  },
+  {
+    "source": "https://www.berlin.de/corona/lagebericht/desktop/corona.html",
     "pr_date": "2021-02-21",
     "indicators": {
       "basic_reproduction_number": {
@@ -19,6 +154,11 @@
         "color": "green",
         "value": -1
       }
+    },
+    "vaccination": {
+      "total_administered": 240707,
+      "percentage_one_dose": 3.9,
+      "percentate_two_doses": 2.49
     }
   },
   {
@@ -41,6 +181,11 @@
         "color": "green",
         "value": -8
       }
+    },
+    "vaccination": {
+      "total_administered": 235336,
+      "percentage_one_dose": 3.83,
+      "percentate_two_doses": 2.41
     }
   },
   {
@@ -63,6 +208,11 @@
         "color": "green",
         "value": -11
       }
+    },
+    "vaccination": {
+      "total_administered": 229979,
+      "percentage_one_dose": 3.77,
+      "percentate_two_doses": 2.33
     }
   },
   {
@@ -85,6 +235,11 @@
         "color": "green",
         "value": -13
       }
+    },
+    "vaccination": {
+      "total_administered": 224940,
+      "percentage_one_dose": 3.71,
+      "percentate_two_doses": 2.26
     }
   },
   {
@@ -107,6 +262,11 @@
         "color": "green",
         "value": -17
       }
+    },
+    "vaccination": {
+      "total_administered": 219549,
+      "percentage_one_dose": 3.65,
+      "percentate_two_doses": 2.17
     }
   },
   {
@@ -129,6 +289,11 @@
         "color": "green",
         "value": -15
       }
+    },
+    "vaccination": {
+      "total_administered": 209500,
+      "percentage_one_dose": 3.47,
+      "percentate_two_doses": 2.09
     }
   },
   {
@@ -151,6 +316,11 @@
         "color": "green",
         "value": -20
       }
+    },
+    "vaccination": {
+      "total_administered": 204039,
+      "percentage_one_dose": 3.42,
+      "percentate_two_doses": 2.0
     }
   },
   {
