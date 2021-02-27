@@ -2,11 +2,14 @@
 
 ## Development
 
+- Add vaccination data to the traffic light file (thanks [@jaimergp](https://github.com/jaimergp)). Vaccination data has been included since 2021-02-15.
+
 ## 0.4.5
 
 _(2021-01-17)_
 
 - Update Nokogiri via dependabot.
+
 ## 0.4.4
 
 _(2020-12-17)_

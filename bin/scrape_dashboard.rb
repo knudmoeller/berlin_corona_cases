@@ -137,10 +137,10 @@ if ARGV.count == 3
         file.puts JSON.pretty_generate(current_case_numbers)
     end
             
-    LOGGER.info("extracting traffic light data ...")
+    LOGGER.info("extracting traffic light and vaccination data ...")
     last_traffic_light_date = current_traffic_light_data.first['pr_date']
     if last_traffic_light_date == Date.today.iso8601
-        LOGGER.error("traffic light data for #{last_case_number_date} already extracted ...")
+        LOGGER.error("traffic light data for #{last_traffic_light_date} already extracted ...")
     else
         new_traffic_light = {
             :source => DASHBOARD_URI ,
@@ -162,7 +162,15 @@ if ARGV.count == 3
                     :color => extract_color(doc.at_css("#rel_7TI")['style']) ,
                     :value => german_to_international_float(doc.css("#rel_7TI .inner .value").text().gsub("%","")).to_i                     
                 }
-            }
+            } ,
+            :vaccination => {
+               :total_administered => 
+                    doc.css("#box-Impfdosen .inner .value").text().gsub(" ","").to_i ,
+               :percentage_one_dose => 
+                    german_to_international_float(doc.css("#box-erstimpfung .inner .value").text().gsub("%","")) ,
+                :percentate_two_doses => 
+                    german_to_international_float(doc.css("#box-zweitimpfung .inner .value").text().gsub("%","")) 
+            }   
         }
         
         current_traffic_light_data.unshift(new_traffic_light)
@@ -170,7 +178,7 @@ if ARGV.count == 3
     File.open(File.join(temp_folder, "berlin_corona_traffic_light.json"), "wb") do |file|
         file.puts JSON.pretty_generate(current_traffic_light_data)
     end
-            
+
 else
     puts "usage: ruby #{File.basename(__FILE__)} CASE_NUMBER_IN.json TRAFFIC_LIGHT_IN.json TEMP_FOLDER"
 end
