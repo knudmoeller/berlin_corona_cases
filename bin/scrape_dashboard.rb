@@ -168,7 +168,7 @@ if ARGV.count == 3
                     doc.css("#box-Impfdosen .inner .value").text().gsub(" ","").to_i ,
                :percentage_one_dose => 
                     german_to_international_float(doc.css("#box-erstimpfung .inner .value").text().gsub("%","")) ,
-                :percentate_two_doses => 
+                :percentage_two_doses => 
                     german_to_international_float(doc.css("#box-zweitimpfung .inner .value").text().gsub("%","")) 
             }   
         }

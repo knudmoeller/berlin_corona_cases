@@ -18,5 +18,10 @@
       "color": "yellow",
       "value": 19
     }
+  },
+  "vaccination": {
+    "total_administered": 285788,
+    "percentage_one_dose": 4.58,
+    "percentage_two_doses": 3
   }
 }

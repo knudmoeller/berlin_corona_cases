@@ -19,6 +19,11 @@
         "color": "yellow",
         "value": 19
       }
+    },
+    "vaccination": {
+      "total_administered": 285788,
+      "percentage_one_dose": 4.58,
+      "percentage_two_doses": 3.0
     }
   },
   {
@@ -45,7 +50,7 @@
     "vaccination": {
       "total_administered": 278242,
       "percentage_one_dose": 4.46,
-      "percentate_two_doses": 2.92
+      "percentage_two_doses": 2.92
     }
   },
   {
@@ -72,7 +77,7 @@
     "vaccination": {
       "total_administered": 266530,
       "percentage_one_dose": 4.22,
-      "percentate_two_doses": 2.85
+      "percentage_two_doses": 2.85
     }
   },
   {
@@ -99,7 +104,7 @@
     "vaccination": {
       "total_administered": 260867,
       "percentage_one_dose": 4.14,
-      "percentate_two_doses": 2.78
+      "percentage_two_doses": 2.78
     }
   },
   {
@@ -126,7 +131,7 @@
     "vaccination": {
       "total_administered": 255667,
       "percentage_one_dose": 4.08,
-      "percentate_two_doses": 2.7
+      "percentage_two_doses": 2.7
     }
   },
   {
@@ -153,7 +158,7 @@
     "vaccination": {
       "total_administered": 245962,
       "percentage_one_dose": 3.96,
-      "percentate_two_doses": 2.56
+      "percentage_two_doses": 2.56
     }
   },
   {
@@ -180,7 +185,7 @@
     "vaccination": {
       "total_administered": 240707,
       "percentage_one_dose": 3.9,
-      "percentate_two_doses": 2.49
+      "percentage_two_doses": 2.49
     }
   },
   {
@@ -207,7 +212,7 @@
     "vaccination": {
       "total_administered": 235336,
       "percentage_one_dose": 3.83,
-      "percentate_two_doses": 2.41
+      "percentage_two_doses": 2.41
     }
   },
   {
@@ -234,7 +239,7 @@
     "vaccination": {
       "total_administered": 229979,
       "percentage_one_dose": 3.77,
-      "percentate_two_doses": 2.33
+      "percentage_two_doses": 2.33
     }
   },
   {
@@ -261,7 +266,7 @@
     "vaccination": {
       "total_administered": 224940,
       "percentage_one_dose": 3.71,
-      "percentate_two_doses": 2.26
+      "percentage_two_doses": 2.26
     }
   },
   {
@@ -288,7 +293,7 @@
     "vaccination": {
       "total_administered": 219549,
       "percentage_one_dose": 3.65,
-      "percentate_two_doses": 2.17
+      "percentage_two_doses": 2.17
     }
   },
   {
@@ -315,7 +320,7 @@
     "vaccination": {
       "total_administered": 209500,
       "percentage_one_dose": 3.47,
-      "percentate_two_doses": 2.09
+      "percentage_two_doses": 2.09
     }
   },
   {
@@ -342,7 +347,7 @@
     "vaccination": {
       "total_administered": 204039,
       "percentage_one_dose": 3.42,
-      "percentate_two_doses": 2.0
+      "percentage_two_doses": 2.0
     }
   },
   {
