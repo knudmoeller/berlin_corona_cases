@@ -90,20 +90,16 @@ def extract_color(css)
     return "unknown"
 end
 
-if ARGV.count == 4
+if ARGV.count == 3
     case_number_in_path = ARGV[0]
     traffic_light_in_path = ARGV[1]
-    vaccinations_in_path = ARGV[2]
-    temp_folder = ARGV[3]
+    temp_folder = ARGV[2]
 
     LOGGER.info("reading current case number file #{case_number_in_path} ...")
     current_case_numbers = JSON.parse(File.read(case_number_in_path))
 
     LOGGER.info("reading current traffic light file #{traffic_light_in_path} ...")
     current_traffic_light_data = JSON.parse(File.read(traffic_light_in_path))
-
-    LOGGER.info("reading current vaccinations file #{vaccinations_in_path} ...")
-    current_vaccinations_data = JSON.parse(File.read(vaccinations_in_path))
 
     LOGGER.info("loading and parsing dashboard from #{DASHBOARD_URI} ...")
     doc = Nokogiri::HTML(URI.open(DASHBOARD_URI))
@@ -141,7 +137,7 @@ if ARGV.count == 4
         file.puts JSON.pretty_generate(current_case_numbers)
     end
             
-    LOGGER.info("extracting traffic light data ...")
+    LOGGER.info("extracting traffic light and vaccination data ...")
     last_traffic_light_date = current_traffic_light_data.first['pr_date']
     if last_traffic_light_date == Date.today.iso8601
         LOGGER.error("traffic light data for #{last_traffic_light_date} already extracted ...")
@@ -183,25 +179,7 @@ if ARGV.count == 4
         file.puts JSON.pretty_generate(current_traffic_light_data)
     end
 
-    LOGGER.info("extracting vaccination data ...")
-    last_vaccinations_date = current_vaccinations_data.first['pr_date']
-    if last_vaccinations_date == Date.today.iso8601
-        LOGGER.error("traffic light data for #{last_vaccinations_date} already extracted ...")
-    else
-        new_vaccinations_data = {
-            :date => dashboard_date.iso8601 ,
-            :source => DASHBOARD_URI ,
-            :total_administered => german_to_international_float(doc.css("#box-Impfdosen .inner .value")).to_i ,
-            :percentage_one_dose => german_to_international_float(doc.css("#box-erstimpfung .inner .value").text().gsub("%","")) ,
-            :percentate_two_doses => german_to_international_float(doc.css("#box-zweitimpfung .inner .value").text().gsub("%","")) 
-        }
-        current_vaccinations_data.unshift(new_vaccinations_data)
-    end
-    File.open(File.join(temp_folder, "berlin_corona_vaccinations.json"), "wb") do |file|
-        file.puts JSON.pretty_generate(current_vaccinations_data)
-    end
-    
 else
-    puts "usage: ruby #{File.basename(__FILE__)} CASE_NUMBER_IN.json TRAFFIC_LIGHT_IN.json VACCINATIONS_IN.json TEMP_FOLDER"
+    puts "usage: ruby #{File.basename(__FILE__)} CASE_NUMBER_IN.json TRAFFIC_LIGHT_IN.json TEMP_FOLDER"
 end
 
