@@ -2,6 +2,10 @@
 
 ## Development
 
+## 0.4.6
+
+_(2021-02-27)_
+
 - Add vaccination data to the traffic light file (thanks [@jaimergp](https://github.com/jaimergp)). Vaccination data has been included since 2021-02-15.
 
 ## 0.4.5
