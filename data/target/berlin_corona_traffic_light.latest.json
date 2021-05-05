@@ -1,27 +1,27 @@
 {
   "source": "https://www.berlin.de/corona/lagebericht/desktop/corona.html",
-  "pr_date": "2021-05-04",
+  "pr_date": "2021-05-05",
   "indicators": {
     "basic_reproduction_number": {
       "color": "green",
-      "value": 0.73
+      "value": 0.63
     },
     "incidence_new_infections": {
       "color": "red",
-      "value": 111.2
+      "value": 104.8
     },
     "icu_occupancy_rate": {
       "color": "yellow",
-      "value": 24.7
+      "value": 24.5
     },
     "change_incidence": {
       "color": "green",
-      "value": -21
+      "value": -24
     }
   },
   "vaccination": {
-    "total_administered": 1323547,
-    "percentage_one_dose": 26.29,
-    "percentage_two_doses": 9.78
+    "total_administered": 1356224,
+    "percentage_one_dose": 26.99,
+    "percentage_two_doses": 9.97
   }
 }
