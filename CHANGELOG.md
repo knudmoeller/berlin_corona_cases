@@ -2,6 +2,12 @@
 
 ## Development
 
+## 0.4.7
+
+_(2021-05-07)_
+
+- Adjust times for running the scraper, because the dashboard is now updated around noon, rather than in the evening. See [.github/workflows/scraper.yml](.github/workflows/scraper.yml).
+
 ## 0.4.6
 
 _(2021-02-27)_
