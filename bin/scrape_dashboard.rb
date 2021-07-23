@@ -75,8 +75,8 @@ def german_to_international_float(text)
     value
 end
 
-# scraping hell: I need to look at the style attribute of the element to 
-# determine the color of the traffic light. 
+# scraping hell: I need to look at the style attribute of the element to
+# determine the color of the traffic light.
 def extract_color(css)
     css.split(";").each do |rule|
         parsed = rule.split(":")
@@ -130,13 +130,13 @@ if ARGV.count == 3
             :counts_per_district => extract_district_data(doc) ,
             :counts_per_age_group => extract_age_group_data(doc)
         }
-        
+
         current_case_numbers.unshift(new_case_numbers)
     end
     File.open(File.join(temp_folder, "berlin_corona_cases.json"), "wb") do |file|
         file.puts JSON.pretty_generate(current_case_numbers)
     end
-            
+
     LOGGER.info("extracting traffic light and vaccination data ...")
     last_traffic_light_date = current_traffic_light_data.first['pr_date']
     if last_traffic_light_date == Date.today.iso8601
@@ -147,32 +147,32 @@ if ARGV.count == 3
             :pr_date => dashboard_date.iso8601 ,
             :indicators => {
                 :basic_reproduction_number => {
-                    :color => extract_color(doc.at_css("#r-wert")['style']) ,
-                    :value => german_to_international_float(doc.css("#r-wert .inner .value").text())
+                    :color => "",
+                    :value => 0.0
                 } ,
                 :incidence_new_infections => {
                     :color => extract_color(doc.at_css("#neuinfektionen")['style']) ,
                     :value => german_to_international_float(doc.css("#neuinfektionen .inner .value").text())
-                } ,    
+                } ,
                 :icu_occupancy_rate => {
                     :color => extract_color(doc.at_css("#its")['style']) ,
                     :value => german_to_international_float(doc.css("#its .inner .value").text().gsub("%",""))
                 } ,
                 :change_incidence => {
                     :color => extract_color(doc.at_css("#rel_7TI")['style']) ,
-                    :value => german_to_international_float(doc.css("#rel_7TI .inner .value").text().gsub("%","")).to_i                     
+                    :value => german_to_international_float(doc.css("#rel_7TI .inner .value").text().gsub("%","")).to_i
                 }
             } ,
             :vaccination => {
-               :total_administered => 
+               :total_administered =>
                     doc.css("#box-Impfdosen .inner .value").text().gsub(" ","").to_i ,
-               :percentage_one_dose => 
+               :percentage_one_dose =>
                     german_to_international_float(doc.css("#box-erstimpfung .inner .value").text().gsub("%","")) ,
-                :percentage_two_doses => 
-                    german_to_international_float(doc.css("#box-zweitimpfung .inner .value").text().gsub("%","")) 
-            }   
+                :percentage_two_doses =>
+                    german_to_international_float(doc.css("#box-zweitimpfung .inner .value").text().gsub("%",""))
+            }
         }
-        
+
         current_traffic_light_data.unshift(new_traffic_light)
     end
     File.open(File.join(temp_folder, "berlin_corona_traffic_light.json"), "wb") do |file|
