@@ -2,6 +2,13 @@
 
 ## Development
 
+## 0.4.8
+
+_(2021-07-23)_
+
+- The R-number is no longer parsed, since it is not included in the dashboard anymore (thanks [@jaimergp](https://github.com/jaimergp)).
+R is still included in the output data (as `0.0`), since some apps might expect to find it there.
+
 ## 0.4.7
 
 _(2021-05-07)_
