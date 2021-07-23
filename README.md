@@ -13,7 +13,7 @@ The dashboard includes daily case numbers by district and age groups, as well as
 * The basic reproduction number R was included until July 22nd, 2021.
 After that, [R was dropped because it was no longer deemed a useful indicator](https://data.lageso.de/lageso/corona/archiv/berlin-website-2021-07-23.html "Berliner Corona-Lagebericht vom 23.07.2021").
 Instead, the relative change in incidence is now the third indicator in the corona traffic light.
-R is still included in the output data (as `0.0`), since some apps might expect to find it there.s
+R is still included in the output data (as `0.0`), since some apps might expect to find it there.
 * Starting with February 15, 2021, the absolute numbers and percentages for administered vaccinations are included in the dashboard.
 * Starting with November 11, 2020, the change in the 7-day incidence is also included in the traffic light indicators.
 * As of August 31, 2020, the dashboard [replaces the previously used daily press releases](https://www.berlin.de/sen/gpg/service/presse/2020/pressemitteilung.983232.php "SenGPG press release announcing the new Corona/COVID-19 dashboard from 2020-08-31") containing the same data.
