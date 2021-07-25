@@ -1,6 +1,6 @@
 {
   "source": "https://www.berlin.de/corona/lagebericht/desktop/corona.html",
-  "pr_date": "2021-07-24",
+  "pr_date": "2021-07-25",
   "indicators": {
     "basic_reproduction_number": {
       "color": "",
@@ -15,8 +15,8 @@
       "value": 3.5
     },
     "change_incidence": {
-      "color": "red",
-      "value": 54
+      "color": "yellow",
+      "value": 37
     }
   },
   "vaccination": {
