@@ -1,6 +1,6 @@
 {
   "source": "https://www.berlin.de/corona/lagebericht/desktop/corona.html",
-  "pr_date": "2021-07-31",
+  "pr_date": "2021-08-01",
   "indicators": {
     "basic_reproduction_number": {
       "color": "",
@@ -8,7 +8,7 @@
     },
     "incidence_new_infections": {
       "color": "yellow",
-      "value": 26.8
+      "value": 27
     },
     "icu_occupancy_rate": {
       "color": "green",
@@ -16,7 +16,7 @@
     },
     "change_incidence": {
       "color": "yellow",
-      "value": 17
+      "value": 11
     }
   },
   "vaccination": {
