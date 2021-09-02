@@ -2,6 +2,14 @@
 
 ## Development
 
+## 0.4.9
+
+_(2021-09-02)_
+
+- The `change_incidence` traffic light indicator, which was introduced in [0.4.3](CHANGELOG.md#043), is no longer included in the dashboard.
+It is still included as `0.0` in the output data for backwards compatibility.
+- Instead of `change_incidence`, a new indicator called `incidence_hospitalisation` is now included. 
+
 ## 0.4.8
 
 _(2021-07-23)_

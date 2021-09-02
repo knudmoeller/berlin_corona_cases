@@ -10,6 +10,10 @@
 This is a scraper for the [Corona/COVID-19 dashboard for Berlin](https://www.berlin.de/corona/lagebericht/desktop/corona.html), as issued by the [Senatsverwaltung für Gesundheit, Pflege und Gleichstellung](https://www.berlin.de/sen/gpg/) (Senate Department for Health, Care and Equality) and the [Landesamt für Gesundheit und Soziales](https://www.berlin.de/lageso/) (Regional Office for Health and Social Affairs).
 The dashboard includes daily case numbers by district and age groups, as well as the "Corona traffic light"-indicators (incidence of new infections per week, ICU occupancy rate, relative change in incidence).
 
+* Change in the 7-day incidence was dropped again on September 2nd, 2021.
+Instead, the 7-day indicence for hospitalisation was introduced as a new traffic light indicator on that day.
+Also, the color scheme for the incidence traffic light was adjusted: where before it was yellow at >=20% and red at >=40%, it is now yellow at >=35% and red at >=100%.
+This of course makes it pointless to compare the color values before and after 2021-09-02.
 * The basic reproduction number R was included until July 22nd, 2021.
 After that, [R was dropped because it was no longer deemed a useful indicator](https://data.lageso.de/lageso/corona/archiv/berlin-website-2021-07-23.html "Berliner Corona-Lagebericht vom 23.07.2021").
 Instead, the relative change in incidence is now the third indicator in the corona traffic light.
@@ -175,7 +179,7 @@ The structure is as follows:
 [
   {
     "source": "https://www.berlin.de/corona/lagebericht/desktop/corona.html",
-    "pr_date": "2021-07-23",
+    "pr_date": "2021-09-02",
     "indicators": {
       "basic_reproduction_number": {
         "color": "",
@@ -183,21 +187,25 @@ The structure is as follows:
       },
       "incidence_new_infections": {
         "color": "yellow",
-        "value": 21.8
+        "value": 83.2
       },
       "icu_occupancy_rate": {
-        "color": "green",
-        "value": 3.8
+        "color": "yellow",
+        "value": 5.4
       },
       "change_incidence": {
-        "color": "red",
-        "value": 78
+        "color": "",
+        "value": 0.0
+      },
+      "incidence_hospitalisation": {
+        "color": "green",
+        "value": 1.3
       }
     },
     "vaccination": {
-      "total_administered": 3839266,
-      "percentage_one_dose": 59.5,
-      "percentage_two_doses": 47.4
+      "total_administered": 4503235,
+      "percentage_one_dose": 65.2,
+      "percentage_two_doses": 60.4
     }
   },
   ...
@@ -228,11 +236,13 @@ Each day specifies the `source` (where was the data scraped from – this used t
 `indicators` in turn contains the indicators `incidence_new_infections` (incidence of new infections per 100,000 inhabitants per week) and `icu_occupancy_rate` (the ICU occupancy rate in %: which percentage of the available ICU capacity is currently being used).
 On 2020-11-11 another indicator was introduced: the change in 7-day incidence (_"Veränderung der 7-Tage-Inzidenz"_).
 This indicator is included as `change_incidence` (the number shows the change in percent).
+`change_incidence` was dropped again on 2021-09-02 (still included as `0.0` for backwards-compatibility) and replaced with a new indicator `incidence_hospitalisation`.
 `basic_reproduction_number` (basic reproduction number R) was recorded until 2021-07-22.
 After that, it is only included as `0.0`, in case applications rely on it to be there.
 
 Each indicator has a numeric `value` and a traffic light `color`-code (one of [`green`, `yellow`, `red`]).
 For the exact meaning of color codes please refer to the corona dashboard.
+Note that the meaning of the color codes was adjusted on 2021-09-02.
 
 `vaccination` shows the total number of administered doses of COVID-19 vaccinations, as well as the percentage of the population that has received one or two doses, respectively.
 
@@ -351,4 +361,4 @@ If you find bugs in the code or in the data, please let me know by opening an is
 
 Repository: [https://github.com/knudmoeller/berlin_corona_cases](https://github.com/knudmoeller/berlin_corona_cases)
 
-Last changed: 2021-09-01
+Last changed: 2021-09-02

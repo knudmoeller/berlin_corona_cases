@@ -159,8 +159,12 @@ if ARGV.count == 3
                     :value => german_to_international_float(doc.css("#its .inner .value").text().gsub("%",""))
                 } ,
                 :change_incidence => {
-                    :color => extract_color(doc.at_css("#rel_7TI")['style']) ,
-                    :value => german_to_international_float(doc.css("#rel_7TI .inner .value").text().gsub("%","")).to_i
+                    :color => "" ,
+                    :value => 0.0
+                } ,
+                :incidence_hospitalisation => {
+                    :color => extract_color(doc.at_css("#hosp_7TI")['style']) ,
+                    :value => german_to_international_float(doc.css("#hosp_7TI .inner .value").text())
                 }
             } ,
             :vaccination => {
