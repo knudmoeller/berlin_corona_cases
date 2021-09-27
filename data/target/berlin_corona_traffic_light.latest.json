@@ -1,6 +1,6 @@
 {
   "source": "https://www.berlin.de/corona/lagebericht/desktop/corona.html",
-  "pr_date": "2021-09-26",
+  "pr_date": "2021-09-27",
   "indicators": {
     "basic_reproduction_number": {
       "color": "",
@@ -20,7 +20,7 @@
     },
     "incidence_hospitalisation": {
       "color": "green",
-      "value": 1.3
+      "value": 1.2
     }
   },
   "vaccination": {
