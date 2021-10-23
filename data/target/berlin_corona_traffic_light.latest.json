@@ -1,6 +1,6 @@
 {
   "source": "https://www.berlin.de/corona/lagebericht/desktop/corona.html",
-  "pr_date": "2021-10-22",
+  "pr_date": "2021-10-23",
   "indicators": {
     "basic_reproduction_number": {
       "color": "",
@@ -8,11 +8,11 @@
     },
     "incidence_new_infections": {
       "color": "red",
-      "value": 113.7
+      "value": 115.8
     },
     "icu_occupancy_rate": {
       "color": "yellow",
-      "value": 9.4
+      "value": 9.1
     },
     "change_incidence": {
       "color": "",
@@ -20,12 +20,12 @@
     },
     "incidence_hospitalisation": {
       "color": "green",
-      "value": 3.2
+      "value": 3.4
     }
   },
   "vaccination": {
-    "total_administered": 4829366,
+    "total_administered": 4833888,
     "percentage_one_dose": 68.8,
-    "percentage_two_doses": 66.1
+    "percentage_two_doses": 66.2
   }
 }
