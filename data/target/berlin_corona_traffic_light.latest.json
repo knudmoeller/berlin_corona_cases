@@ -1,6 +1,6 @@
 {
   "source": "https://www.berlin.de/corona/lagebericht/desktop/corona.html",
-  "pr_date": "2021-11-06",
+  "pr_date": "2021-11-07",
   "indicators": {
     "basic_reproduction_number": {
       "color": "",
@@ -8,7 +8,7 @@
     },
     "incidence_new_infections": {
       "color": "red",
-      "value": 199.1
+      "value": 195.3
     },
     "icu_occupancy_rate": {
       "color": "yellow",
@@ -20,7 +20,7 @@
     },
     "incidence_hospitalisation": {
       "color": "green",
-      "value": 3.9
+      "value": 3.4
     }
   },
   "vaccination": {
