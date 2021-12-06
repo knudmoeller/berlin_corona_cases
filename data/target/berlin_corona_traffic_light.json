@@ -1,6 +1,37 @@
 [
   {
     "source": "https://www.berlin.de/corona/lagebericht/desktop/corona.html",
+    "pr_date": "2021-12-06",
+    "indicators": {
+      "basic_reproduction_number": {
+        "color": "",
+        "value": 0.0
+      },
+      "incidence_new_infections": {
+        "color": "red",
+        "value": 341.4
+      },
+      "icu_occupancy_rate": {
+        "color": "red",
+        "value": 22.1
+      },
+      "change_incidence": {
+        "color": "",
+        "value": 0.0
+      },
+      "incidence_hospitalisation": {
+        "color": "yellow",
+        "value": 4.6
+      }
+    },
+    "vaccination": {
+      "total_administered": 5723604,
+      "percentage_one_dose": 72.4,
+      "percentage_two_doses": 69.5
+    }
+  },
+  {
+    "source": "https://www.berlin.de/corona/lagebericht/desktop/corona.html",
     "pr_date": "2021-12-05",
     "indicators": {
       "basic_reproduction_number": {
