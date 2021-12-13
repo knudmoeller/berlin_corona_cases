@@ -1,6 +1,6 @@
 {
   "source": "https://www.berlin.de/corona/lagebericht/desktop/corona.html",
-  "pr_date": "2021-12-12",
+  "pr_date": "2021-12-13",
   "indicators": {
     "basic_reproduction_number": {
       "color": "",
@@ -8,11 +8,11 @@
     },
     "incidence_new_infections": {
       "color": "red",
-      "value": 314.7
+      "value": 309.7
     },
     "icu_occupancy_rate": {
       "color": "red",
-      "value": 23.3
+      "value": 23
     },
     "change_incidence": {
       "color": "",
