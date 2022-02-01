@@ -1,5 +1,133 @@
 [
   {
+    "date": "2022-02-01",
+    "source": "https://www.berlin.de/corona/lagebericht/desktop/corona.html",
+    "counts_per_district": {
+      "lor_01": {
+        "case_count": 70249,
+        "indicence": 18754.0,
+        "recovered": 40039
+      },
+      "lor_02": {
+        "case_count": 51762,
+        "indicence": 18538.7,
+        "recovered": 29434
+      },
+      "lor_03": {
+        "case_count": 56719,
+        "indicence": 14032.9,
+        "recovered": 31810
+      },
+      "lor_04": {
+        "case_count": 40271,
+        "indicence": 12735.0,
+        "recovered": 29344
+      },
+      "lor_05": {
+        "case_count": 39252,
+        "indicence": 16397.8,
+        "recovered": 27563
+      },
+      "lor_06": {
+        "case_count": 35302,
+        "indicence": 12093.2,
+        "recovered": 23022
+      },
+      "lor_07": {
+        "case_count": 52209,
+        "indicence": 15297.3,
+        "recovered": 31301
+      },
+      "lor_08": {
+        "case_count": 62556,
+        "indicence": 19640.3,
+        "recovered": 38967
+      },
+      "lor_09": {
+        "case_count": 30754,
+        "indicence": 11265.5,
+        "recovered": 21314
+      },
+      "lor_10": {
+        "case_count": 24948,
+        "indicence": 9102.6,
+        "recovered": 20597
+      },
+      "lor_11": {
+        "case_count": 36692,
+        "indicence": 12565.5,
+        "recovered": 28412
+      },
+      "lor_12": {
+        "case_count": 39754,
+        "indicence": 15306.5,
+        "recovered": 27008
+      }
+    },
+    "counts_per_age_group": {
+      "0-4": {
+        "case_count": 18849,
+        "incidence": 9852.0
+      },
+      "5-9": {
+        "case_count": 41701,
+        "incidence": 24082.6
+      },
+      "10-14": {
+        "case_count": 44106,
+        "incidence": 27810.6
+      },
+      "15-19": {
+        "case_count": 34136,
+        "incidence": 23186.1
+      },
+      "20-24": {
+        "case_count": 41864,
+        "incidence": 21148.6
+      },
+      "25-29": {
+        "case_count": 52030,
+        "incidence": 19479.7
+      },
+      "30-39": {
+        "case_count": 108591,
+        "incidence": 17185.7
+      },
+      "40-49": {
+        "case_count": 76645,
+        "incidence": 16579.0
+      },
+      "50-59": {
+        "case_count": 58849,
+        "incidence": 11345.2
+      },
+      "60-69": {
+        "case_count": 28943,
+        "incidence": 7430.6
+      },
+      "70-79": {
+        "case_count": 16123,
+        "incidence": 5284.6
+      },
+      "80-89": {
+        "case_count": 13178,
+        "incidence": 6891.8
+      },
+      "90+": {
+        "case_count": 4555,
+        "incidence": 15168.7
+      },
+      "unknown": {
+        "case_count": 898,
+        "indidence": "n.a."
+      },
+      "* Fälle pro 100 000 Einwohner*innen.": {
+        "case_count": 0,
+        "incidence": "unknown"
+      }
+    }
+  },
+  {
     "date": "2022-01-31",
     "source": "https://www.berlin.de/corona/lagebericht/desktop/corona.html",
     "counts_per_district": {
