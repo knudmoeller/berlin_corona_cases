@@ -1,6 +1,6 @@
 {
   "source": "https://www.berlin.de/corona/lagebericht/desktop/corona.html",
-  "pr_date": "2022-02-08",
+  "pr_date": "2022-02-09",
   "indicators": {
     "basic_reproduction_number": {
       "color": "",
@@ -8,11 +8,11 @@
     },
     "incidence_new_infections": {
       "color": "red",
-      "value": 1640.4
+      "value": 1564.9
     },
     "icu_occupancy_rate": {
       "color": "yellow",
-      "value": 17.5
+      "value": 16.6
     },
     "change_incidence": {
       "color": "",
@@ -20,12 +20,12 @@
     },
     "incidence_hospitalisation": {
       "color": "red",
-      "value": 25.2
+      "value": 25.4
     }
   },
   "vaccination": {
-    "total_administered": 7492952,
+    "total_administered": 7504239,
     "percentage_one_dose": 77.1,
-    "percentage_two_doses": 75.6
+    "percentage_two_doses": 75.7
   }
 }
