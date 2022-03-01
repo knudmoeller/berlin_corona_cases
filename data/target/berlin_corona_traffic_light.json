@@ -1,6 +1,37 @@
 [
   {
     "source": "https://www.berlin.de/corona/lagebericht/desktop/corona.html",
+    "pr_date": "2022-03-01",
+    "indicators": {
+      "basic_reproduction_number": {
+        "color": "",
+        "value": 0.0
+      },
+      "incidence_new_infections": {
+        "color": "red",
+        "value": 1043.0
+      },
+      "icu_occupancy_rate": {
+        "color": "yellow",
+        "value": 12.7
+      },
+      "change_incidence": {
+        "color": "",
+        "value": 0.0
+      },
+      "incidence_hospitalisation": {
+        "color": "red",
+        "value": 16.2
+      }
+    },
+    "vaccination": {
+      "total_administered": 0,
+      "percentage_one_dose": 77.4,
+      "percentage_two_doses": 73.0
+    }
+  },
+  {
+    "source": "https://www.berlin.de/corona/lagebericht/desktop/corona.html",
     "pr_date": "2022-02-28",
     "indicators": {
       "basic_reproduction_number": {
