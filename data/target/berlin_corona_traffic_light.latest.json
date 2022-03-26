@@ -1,6 +1,6 @@
 {
   "source": "https://www.berlin.de/corona/lagebericht/desktop/corona.html",
-  "pr_date": "2022-03-25",
+  "pr_date": "2022-03-26",
   "indicators": {
     "basic_reproduction_number": {
       "color": "",
@@ -8,11 +8,11 @@
     },
     "incidence_new_infections": {
       "color": "red",
-      "value": 1087.4
+      "value": 1109.9
     },
     "icu_occupancy_rate": {
       "color": "yellow",
-      "value": 8.8
+      "value": 8.9
     },
     "change_incidence": {
       "color": "",
@@ -20,7 +20,7 @@
     },
     "incidence_hospitalisation": {
       "color": "red",
-      "value": 19.2
+      "value": 19.6
     }
   },
   "vaccination": {
