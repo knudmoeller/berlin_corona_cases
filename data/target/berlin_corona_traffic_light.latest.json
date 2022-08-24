@@ -1,6 +1,6 @@
 {
   "source": "https://www.berlin.de/corona/lagebericht/desktop/corona.html",
-  "pr_date": "2022-08-23",
+  "pr_date": "2022-08-24",
   "indicators": {
     "basic_reproduction_number": {
       "color": "",
@@ -8,11 +8,11 @@
     },
     "incidence_new_infections": {
       "color": "red",
-      "value": 173.2
+      "value": 161.5
     },
     "icu_occupancy_rate": {
-      "color": "yellow",
-      "value": 5
+      "color": "green",
+      "value": 4.1
     },
     "change_incidence": {
       "color": "",
