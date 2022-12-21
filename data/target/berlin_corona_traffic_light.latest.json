@@ -1,6 +1,6 @@
 {
   "source": "https://www.berlin.de/corona/lagebericht/desktop/corona.html",
-  "pr_date": "2022-12-20",
+  "pr_date": "2022-12-21",
   "indicators": {
     "basic_reproduction_number": {
       "color": "",
@@ -8,11 +8,11 @@
     },
     "incidence_new_infections": {
       "color": "unknown",
-      "value": 266.2
+      "value": 274.7
     },
     "icu_occupancy_rate": {
       "color": "unknown",
-      "value": 4.6
+      "value": 5.1
     },
     "change_incidence": {
       "color": "",
@@ -20,7 +20,7 @@
     },
     "incidence_hospitalisation": {
       "color": "unknown",
-      "value": 20.5
+      "value": 20.6
     }
   },
   "vaccination": {
