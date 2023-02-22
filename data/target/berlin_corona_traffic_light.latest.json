@@ -1,6 +1,6 @@
 {
   "source": "https://www.berlin.de/corona/lagebericht/desktop/corona.html",
-  "pr_date": "2023-02-21",
+  "pr_date": "2023-02-22",
   "indicators": {
     "basic_reproduction_number": {
       "color": "",
@@ -8,7 +8,7 @@
     },
     "incidence_new_infections": {
       "color": "unknown",
-      "value": 63.1
+      "value": 66.3
     },
     "icu_occupancy_rate": {
       "color": "unknown",
@@ -20,7 +20,7 @@
     },
     "incidence_hospitalisation": {
       "color": "unknown",
-      "value": 4.6
+      "value": 4
     }
   },
   "vaccination": {
